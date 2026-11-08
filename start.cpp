@@ -45,6 +45,7 @@ template <> constexpr double infty<double> = infty<i128>;
 template <> constexpr long double infty<long double> = infty<i128>;
 
 using pi = pair<ll, ll>;
+using tii = tuple<ll, ll, ll>;
 using vi = vector<ll>;
 template <class T> using vc = vector<T>;
 template <class T> using vvc = vector<vc<T>>;
@@ -52,6 +53,8 @@ template <class T> using vvvc = vector<vvc<T>>;
 template <class T> using vvvvc = vector<vvvc<T>>;
 template <class T> using pq_max = priority_queue<T>;
 template <class T> using pq_min = priority_queue<T, vector<T>, greater<T>>;
+template <class T> using uset = unordered_set<T>;
+template <class K, class V> using umap = unordered_map<K, V>;
 
 #define vv(type, name, h, ...) vector<vector<type>> name(h, vector<type>(__VA_ARGS__))
 #define vvv(type, name, h, w, ...)                                                                                     \
@@ -184,6 +187,10 @@ template <class T, class S> inline bool chmin(T &a, const S &b) {
   a = c;
   return changed;
 }
+ostream &operator<<(ostream &o, pi &p) {
+  o << "(" << p.first << "," << p.second << ")";
+  return o;
+}
 template <class T> ostream &operator<<(ostream &o, vc<T> &v) {
   if (v.empty()) {
     o << "[]";
@@ -195,10 +202,6 @@ template <class T> ostream &operator<<(ostream &o, vc<T> &v) {
   cout << "]";
   return o;
 }
-ostream &operator<<(ostream &o, pi &p) {
-  o << "(" << p.first << "," << p.second << ")";
-  return o;
-}
 template <class T> ostream &operator<<(ostream &o, set<T> &v) {
   if (v.empty()) {
     o << "{}";
@@ -207,6 +210,39 @@ template <class T> ostream &operator<<(ostream &o, set<T> &v) {
   o << "{";
   for (auto it = v.begin(); it != v.end(); it++)
     o << *it << ",";
+  o << "}";
+  return o;
+}
+template <class T> ostream &operator<<(ostream &o, unordered_set<T> &v) {
+  if (v.empty()) {
+    o << "{}";
+    return o;
+  }
+  o << "{";
+  for (auto it = v.begin(); it != v.end(); it++)
+    o << *it << ",";
+  o << "}";
+  return o;
+}
+template <class K, class V> ostream &operator<<(ostream &o, map<K, V> &m) {
+  if (m.empty()) {
+    o << "{}";
+    return o;
+  }
+  o << "{";
+  for (auto &[k, v] : m)
+    cout << "(" << k << "->" << v << "),";
+  o << "}";
+  return o;
+}
+template <class K, class V> ostream &operator<<(ostream &o, unordered_map<K, V> &m) {
+  if (m.empty()) {
+    o << "{}";
+    return o;
+  }
+  o << "{";
+  for (auto &[k, v] : m)
+    cout << "(" << k << "->" << v << "),";
   o << "}";
   return o;
 }

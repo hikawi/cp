@@ -430,7 +430,14 @@
 | A67 | MST                            | Union-Find・木構造       |     AC     |  5/9   |              [リンク](./tessoku/a67_mst.cpp)               |
 | A68 | Maximum Flow                   | フロー                   |     AC     |  6/9   |          [リンク](./tessoku/a68_maximum_flow.cpp)          |
 | A69 | Bipartite Matching             | グラフ                   |            |  6/9   |                                                            |
-| A70 | Lanterns                       | 最短経路                 |            |  5/9   |            [リンク](./tessoku/a70_lanterns.cpp)            |
+| A70 | Lanterns                       | 最短経路                 |     AC     |  5/9   |            [リンク](./tessoku/a70_lanterns.cpp)            |
+| A71 | Homework                       | 考察                     |     AC     |  3/9   |            [リンク](./tessoku/a71_homework.cpp)            |
+| A72 | Tile Painting                  | ビット全探索             |     AC     |  4/9   |         [リンク](./tessoku/a72_tile_painting.cpp)          |
+| A73 | Marathon Route                 | 最短経路                 |     AC     |  5/9   |         [リンク](./tessoku/a73_marathon_route.cpp)         |
+| A74 | Board Game                     | 考察                     |     AC     |  5/9   |           [リンク](./tessoku/a74_board_game.cpp)           |
+| A75 | Examination                    | 2DDP                     |     AC     |  6/9   |          [リンク](./tessoku/a75_examination.cpp)           |
+| A76 | River Crossing                 | 1DDP・セグメント木       |     AC     |  6/9   |         [リンク](./tessoku/a76_river_crossing.cpp)         |
+| A77 | Yokan Party                    | 二分探索・全探索         |     AC     |  4/9   |          [リンク](./tessoku/a77_yokan_party.cpp)           |
 | B01 | A+B Problem                    | 実装                     |     AC     |   -    |          [リンク](./tessoku/b01_a_b_problem.cpp)           |
 | B02 | Divisor Check                  | 数学・全探索             |     AC     |   -    |         [リンク](./tessoku/b02_divisor_check.cpp)          |
 | B03 | Supermarket                    | 全探索                   |     AC     |   -    |          [リンク](./tessoku/b03_supermarket.cpp)           |

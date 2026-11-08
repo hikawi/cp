@@ -29,15 +29,23 @@
 | ゲーム         | Games                         |
 | 再帰           | Recursion                     |
 
-## CP31
+## Problem Set
 
-| ID      | 名前               | 種類   | ステータス | レート |
-| ------- | ------------------ | ------ | :--------: | :----: |
-| `1903A` | Halloumi Boxes     | 考察   |     AC     |  800   |
-| `1901A` | Line Trip          | 考察   |     AC     |  800   |
-| `1900A` | Cover in Water     | 考察   |     AC     |  800   |
-| `1899A` | Game with Integers | 考察   |     AC     |  800   |
-| `1896A` | Jagged Swaps       | 貪欲法 |     AC     |  800   |
-| `1890A` | Doremy's Paint 3   | 考察   |     AC     |  800   |
-| `1913B` | Swap and Delete    | 貪欲法 |     AC     |  1000  |
-| `1883C` | Raspberries        | 考察   |     AC     |  1000  |
+| ID       | 名前                               | 種類   | ステータス | レート |
+| -------- | ---------------------------------- | ------ | :--------: | :----: |
+| `1883C`  | Raspberries                        | 考察   |     UP     |  1000  |
+| `1890A`  | Doremy's Paint 3                   | 考察   |     UP     |  800   |
+| `1896A`  | Jagged Swaps                       | 貪欲法 |     UP     |  800   |
+| `1899A`  | Game with Integers                 | 考察   |     UP     |  800   |
+| `1900A`  | Cover in Water                     | 考察   |     UP     |  800   |
+| `1901A`  | Line Trip                          | 考察   |     UP     |  800   |
+| `1903A`  | Halloumi Boxes                     | 考察   |     UP     |  800   |
+| `1913B`  | Swap and Delete                    | 貪欲法 |     UP     |  1000  |
+| `2280A`  | Are They the Same?                 | 考察   |     AC     |   -    |
+| `2280B`  | Secret String Patterns             | 考察   |     AC     |   -    |
+| `2280C`  | Reverse and Double                 | 考察   |            |   -    |
+| `2280D`  | Balanced Subsets                   |        |            |   -    |
+| `2280E`  | Anti-Productive                    |        |     WA     |   -    |
+| `2284A1` | 15K4JR3B (Easy Version)            | 考察   |     AC     |   -    |
+| `2284A2` | 15K4JR3B (Hard Version)            | 貪欲法 |     UP     |   -    |
+| `2284B`  | Introduction to the Niche Internet | 貪欲法 |            |   -    |
