@@ -117,6 +117,26 @@ template <typename T> pair<T, T> divmod(T x, T y) {
   return {q, r};
 }
 
+constexpr ll powmod(ll x, ll n, ll m) {
+  ll res = 1;
+  x = bmod(x, m);
+  while (n) {
+    if (n & 1)
+      res = (i128)res * x % m;
+    x = (i128)x * x % m;
+    n >>= 1;
+  }
+  return res;
+}
+constexpr ll powdiv(ll x, ll n, ll m) {
+  x = bmod(x, m);
+  if (n < 0) {
+    ll inv = powmod(x, m - 2, m); // Modular inverse of x
+    return powmod(inv, -n, m);
+  }
+  return powmod(x, n, m);
+}
+
 constexpr auto TEN = [] {
   array<u64, 20> A{};
   A[0] = 1;
