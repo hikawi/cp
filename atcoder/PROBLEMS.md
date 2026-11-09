@@ -79,6 +79,7 @@
 | `abc240d` | Strange Balls                        | 実装                   |     UP     |  570   |              [リンク](./renshu/abc240d_strange_balls.cpp)               |
 | `abc241b` | Pasta                                | 連想配列               |     AC     |   42   |             [リンク](./adt/adt_all_20261027_1/d_pasta.cpp)              |
 | `abc241d` | Sequence Query                       | 二分探索               |     AC     |  1177  |         [リンク](./adt/adt_all_20261030_1/g_sequence_query.cpp)         |
+| `abc243d` | Moves on Binary Tree                 | データ構造             |     AC     |  758   |      [リンク](./adt/adt_all_20261109_1/g_moves_on_binary_tree.cpp)      |
 | `abc244b` | Go Straight and Turn Right           | 実装                   |     AC     |   30   |   [リンク](./adt/adt_all_20261022_1/c_go_straight_and_turn_right.cpp)   |
 | `abc244c` | Yamanote Line Game                   | 実装                   |     AC     |  165   |       [リンク](./adt/adt_all_20261102_1/f_yamanote_line_game.cpp)       |
 | `abc248b` | Slimes                               | 実装                   |     AC     |   41   |                  [リンク](./renshu/abc248b_slimes.cpp)                  |
@@ -130,6 +131,7 @@
 | `abc291a` | camel Case                           | 実装・文字列           |     AC     |   8    |           [リンク](./adt/adt_all_20261007_2/a_camel_case.cpp)           |
 | `abc292a` | CAPS LOCK                            | 実装                   |     AC     |   7    |           [リンク](./adt/adt_all_20261105_1/b_caps_lock.cpp)            |
 | `abc294b` | ASCII Art                            | 行列                   |     AC     |   25   |           [リンク](./adt/adt_all_20261029_1/d_ascii_art.cpp)            |
+| `abc294e` | 2xN Grid                             | データ構造             |     AC     |  758   |            [リンク](./adt/adt_all_20261109_1/h_2n_grid.cpp)             |
 | `abc297a` | Double Click                         | 実装                   |     AC     |   16   |          [リンク](./adt/adt_all_20261002_2/b_double_click.cpp)          |
 | `abc297b` | chess 960                            | 文字列・実装           |     AC     |   47   |           [リンク](./adt/adt_all_20261007_2/d_chess_960.cpp)            |
 | `abc297c` | PC on the Table                      | 行列・実装             |     AC     |   96   |        [リンク](./adt/adt_all_20261006_2/e_pc_on_the_table.cpp)         |
@@ -143,6 +145,7 @@
 | `abc309a` | Nine                                 | 実装                   |     AC     |   22   |              [リンク](./adt/adt_all_20261013_1/a_nine.cpp)              |
 | `abc309c` | Medicine                             | 連想配列               |     AC     |  348   |            [リンク](./adt/adt_all_20261008_1/f_medicine.cpp)            |
 | `abc309d` | Add One Edge                         | グラフ・最短経路       |     UP     |  621   |          [リンク](./adt/adt_all_20261007_2/g_add_one_edge.cpp)          |
+| `abc310c` | Reversible                           | 実装・連想配列         |     AC     |  272   |           [リンク](./adt/adt_all_20261109_1/e_reversible.cpp)           |
 | `abc311b` | Vacation Together                    | 配列                   |     AC     |   67   |       [リンク](./adt/adt_all_20261027_1/c_vacation_together.cpp)        |
 | `abc312a` | Chord                                | 実装                   |     AC     |   12   |             [リンク](./adt/adt_all_20261012_2/b_chord.cpp)              |
 | `abc314d` | LOWER                                | オフライン処理         |     UP     |  585   |                  [リンク](./renshu/abc314d_lower.cpp)                   |
@@ -182,6 +185,7 @@
 | `abc360a` | A Healthy Breakfast                  | 実装                   |     UP     |   19   |      [リンク](./adt/adt_all_20261026_1/b_a_healthy_breakfast.cpp)       |
 | `abc360b` | Vertical Reading                     | 実装・文字列           |     AC     |   78   |        [リンク](./adt/adt_all_20261019_1/d_vertical_reading.cpp)        |
 | `abc361b` | Intersection of Cuboids              | 幾何学                 |     AC     |  299   |         [リンク](./adt/adt_easy_20260925_1/c_intersection.cpp)          |
+| `abc361c` | Make Them Narrow                     | 全探索                 |     UP     |  342   |        [リンク](./adt/adt_all_20261109_1/f_make_them_narrow.cpp)        |
 | `abc365c` | Transportation Expenses              | 二分探索               |     UP     |  269   |         [リンク](./adt/adt_all_20261007_2/e_transportation.cpp)         |
 | `abc366c` | Balls and Bag Query                  | 連想配列               |     UP     |  180   |      [リンク](./adt/adt_all_20261026_1/f_balls_and_bag_query.cpp)       |
 | `abc366d` | Cuboid Sum Query                     | 累積和                 |     UP     |  586   |             [リンク](./renshu/abc366d_cuboid_sum_query.cpp)             |
@@ -191,6 +195,7 @@
 | `abc370c` | Word Ladder                          | 最短経路・文字列       |     AC     |  228   |          [リンク](./adt/adt_all_20261027_1/f_word_ladder.cpp)           |
 | `abc372a` | delete .                             | 実装                   |     AC     |   12   |             [リンク](./adt/adt_all_20261006_2/b_delete.cpp)             |
 | `abc372c` | Count ABC Again                      | 考察                   |     UP     |  341   |        [リンク](./adt/adt_all_20261020_1/e_count_abc_again.cpp)         |
+| `abc373b` | 1D Keyboard                          | 実装                   |     AC     |   54   |          [リンク](./adt/adt_all_20261109_1/c_1d_keyboard.cpp)           |
 | `abc373c` | Max Ai+Bj                            | 実装                   |     AC     |   75   |           [リンク](./adt/adt_all_20261012_1/f_max_ai_bj.cpp)            |
 | `abc375a` | Seats                                | 実装                   |     AC     |   20   |             [リンク](./adt/adt_all_20261006_1/b_seats.cpp)              |
 | `abc376c` | Prepare Another Box                  | 二分探索               |     UP     |  366   |      [リンク](./adt/adt_all_20261026_1/e_prepare_another_box.cpp)       |
@@ -233,6 +238,7 @@
 | `abc416b` | 1D Akari                             | 考察                   |     AC     |   56   |            [リンク](./adt/adt_all_20261016_1/c_1d_akari.cpp)            |
 | `abc416c` | Concat (X-th)                        | 全探索                 |     AC     |  298   |           [リンク](./adt/adt_all_20261019_1/f_concat_xth.cpp)           |
 | `abc417a` | A Substring                          | 実装                   |     AC     |   15   |          [リンク](./adt/adt_all_20261027_1/b_a_substring.cpp)           |
+| `abc419a` | AtCoder Language                     | 実装                   |     AC     |   16   |        [リンク](./adt/adt_all_20261109_1/a_atcoder_language.cpp)        |
 | `abc421a` | Misdelivery                          | 連想配列               |     AC     |   14   |          [リンク](./adt/adt_easy_20260925_1/a_misdelivery.cpp)          |
 | `abc423c` | Lock All Doors                       | 考察                   |     UP     |  377   |         [リンク](./adt/adt_all_20261028_2/f_lock_all_doors.cpp)         |
 | `abc424a` | Isosceles                            | 実装                   |     AC     |   4    |           [リンク](./adt/adt_all_20261030_1/b_isosceles.cpp)            |
@@ -273,6 +279,7 @@
 | `abc463e` | Roads and Gates                      | 最短経路               |     UP     |  1055  |        [リンク](./adt/adt_all_20261029_1/h_roads_and_gates.cpp)         |
 | `abc464a` | Decisive Battle                      | 実装                   |     AC     |   13   |        [リンク](./adt/adt_all_20261012_2/a_decisive_battle.cpp)         |
 | `abc465b` | Parking 2                            | 実装                   |     AC     |   56   |           [リンク](./adt/adt_all_20261028_2/d_parking_2.cpp)            |
+| `abc467a` | Obesity                              | 実装                   |     AC     |   76   |            [リンク](./adt/adt_all_20261109_1/b_obesity.cpp)             |
 | `abc467b` | Keep the Change                      | 実装                   |     AC     |   39   |        [リンク](./adt/adt_all_20261023_1/d_keep_the_change.cpp)         |
 | `abc467c` | Adjacent Sums (easy)                 | 考察                   |     UP     |  608   |       [リンク](./adt/adt_all_20261027_1/e_adjacent_sums_easy.cpp)       |
 | `abc467d` | Concentric Circles                   | 数学                   |     UP     |  928   |       [リンク](./adt/adt_all_20261103_1/g_concentric_circles.cpp)       |
