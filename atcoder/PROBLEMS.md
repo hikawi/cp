@@ -137,6 +137,7 @@
 | `abc297c` | PC on the Table                      | 行列・実装             |     AC     |   96   |        [リンク](./adt/adt_all_20261006_2/e_pc_on_the_table.cpp)         |
 | `abc298c` | Cards Query Problem                  | 連想配列               |     AC     |  448   |      [リンク](./adt/adt_all_20261002_2/f_cards_query_problem.cpp)       |
 | `abc299c` | Dango                                | 文字列                 |     AC     |  191   |             [リンク](./adt/adt_all_20261023_1/e_dango.cpp)              |
+| `abc302a` | Attack                               | 実装                   |     AC     |   24   |             [リンク](./adt/adt_all_20261110_1/a_attack.cpp)             |
 | `abc303a` | Similar String                       | 実装                   |     AC     |   22   |         [リンク](./adt/adt_all_20261103_1/a_similar_string.cpp)         |
 | `abc304a` | First Player                         | 配列                   |     AC     |   -    |          [リンク](./adt/adt_all_20261008_2/b_first_player.cpp)          |
 | `abc306a` | Echo                                 | 実装                   |     AC     |   0    |              [リンク](./adt/adt_all_20261102_1/a_echo.cpp)              |
@@ -157,7 +158,9 @@
 | `abc322a` | First ABC 2                          | 実装                   |     AC     |   12   |          [リンク](./adt/adt_all_20261104_1/b_first_abc_2.cpp)           |
 | `abc322c` | Festival                             | 実装・配列             |     AC     |   57   |            [リンク](./adt/adt_all_20261008_1/e_festival.cpp)            |
 | `abc323a` | Weak Beats                           | 実装                   |     AC     |   15   |           [リンク](./adt/adt_all_20260928_1/a_weak_beats.cpp)           |
+| `abc323b` | Round-Robin Tournament               | 実装                   |     AC     |   75   |     [リンク](./adt/adt_all_20261110_1/c_round_robin_tournament.cpp)     |
 | `abc324d` | Square Permutation                   | 全探索                 |     UP     |  895   |            [リンク](./renshu/abc324d_square_permutation.cpp)            |
+| `abc325c` | Sensors                              | 深さ優先探索           |     AC     |  400   |            [リンク](./adt/adt_all_20261110_1/e_sensors.cpp)             |
 | `abc326b` | 326-like Numbers                     | 全探索                 |     AC     |   42   |        [リンク](./adt/adt_all_20261006_1/c_326_like_numbers.cpp)        |
 | `abc327c` | Number Place                         | 実装                   |     AC     |  169   |          [リンク](./adt/adt_all_20261008_2/e_number_place.cpp)          |
 | `abc329a` | Spread                               | 実装                   |     AC     |   9    |             [リンク](./adt/adt_all_20260928_1/b_spread.cpp)             |
@@ -216,6 +219,7 @@
 | `abc392a` | Shuffled Equation                    | 実装                   |     AC     |   11   |       [リンク](./adt/adt_all_20261103_1/b_shuffled_equation.cpp)        |
 | `abc392d` | Doubles                              | 全探索                 |     UP     |  579   |            [リンク](./adt/adt_all_20261020_1/g_doubles.cpp)             |
 | `abc393c` | Make it Simple                       | グラフ                 |     AC     |  188   |         [リンク](./adt/adt_all_20261014_2/f_make_it_simple.cpp)         |
+| `abc394b` | cat                                  | 実装                   |     AC     |   30   |              [リンク](./adt/adt_all_20261110_1/d_cat.cpp)               |
 | `abc394d` | Colorful Bracket Sequence            | 連想配列               |     UP     |  253   |   [リンク](./adt/adt_all_20261008_1/g_colorful_bracket_sequence.cpp)    |
 | `abc398c` | Uniqueness                           | 連想配列               |     AC     |  124   |           [リンク](./adt/adt_all_20261022_1/f_uniqueness.cpp)           |
 | `abc399a` | Hamming Distance                     | 文字列                 |     AC     |   9    |        [リンク](./adt/adt_all_20261005_2/a_hamming_distance.cpp)        |
@@ -271,7 +275,7 @@
 | `abc451b` | Personnel Change                     | 実装                   |     AC     |   36   |        [リンク](./adt/adt_all_20261008_1/c_personnel_change.cpp)        |
 | `abc452b` | Draw Frame                           | 実装                   |     UP     |   25   |           [リンク](./adt/adt_all_20261026_1/d_draw_frame.cpp)           |
 | `abc452c` | Fishbones                            | 連想配列               |     UP     |  435   |           [リンク](./adt/adt_all_20261012_1/e_fishbones.cpp)            |
-| `abc453d` | Go Straight                          | 最短経路               |     UP     |  1011  |          [リンク](./adt/adt_all_20261012_2/g_go_straight.cpp)           |
+| `abc453d` | Go Straight                          | 最短経路               |     AC     |  1011  |          [リンク](./adt/adt_all_20261110_1/g_go_straight.cpp)           |
 | `abc456b` | 456                                  | 全探索                 |     AC     |   96   |              [リンク](./adt/adt_all_20261103_1/d_456.cpp)               |
 | `abc459a` | Hell, World!                         | 文字列                 |     AC     |   15   |           [リンク](./adt/adt_all_20261029_1/b_hell_world.cpp)           |
 | `abc459b` | 459                                  | 実装                   |     AC     |   32   |              [リンク](./adt/adt_all_20261014_2/c_459.cpp)               |
