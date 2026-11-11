@@ -121,6 +121,7 @@
 | `abc280d` | Factorial and Multiple               | 数学                   |            |  880   |          [リンク](./renshu/abc280d_factorial_and_multiple.cpp)          |
 | `abc282a` | Generalized ABC                      | 実装                   |     AC     |   7    |        [リンク](./adt/adt_all_20261001_1/b_generalized_abc.cpp)         |
 | `abc282c` | String Delimiter                     | 文字列                 |     AC     |  104   |        [リンク](./adt/adt_all_20261016_1/f_string_delimiter.cpp)        |
+| `abc283c` | Cash Register                        | 貪欲法                 |     AC     |   88   |         [リンク](./adt/adt_all_20261111_2/f_cash_register.cpp)          |
 | `abc284b` | Multi Test Cases                     | 実装                   |     AC     |   14   |        [リンク](./adt/adt_all_20261005_2/c_multi_test_cases.cpp)        |
 | `abc285a` | Edge Checker 2                       | 考察                   |     AC     |   11   |         [リンク](./adt/adt_all_20261021_2/a_edge_checker_2.cpp)         |
 | `abc286b` | Cat                                  | 実装・文字列           |     AC     |   32   |              [リンク](./adt/adt_all_20261103_1/c_cat.cpp)               |
@@ -160,6 +161,7 @@
 | `abc323a` | Weak Beats                           | 実装                   |     AC     |   15   |           [リンク](./adt/adt_all_20260928_1/a_weak_beats.cpp)           |
 | `abc323b` | Round-Robin Tournament               | 実装                   |     AC     |   75   |     [リンク](./adt/adt_all_20261110_1/c_round_robin_tournament.cpp)     |
 | `abc324d` | Square Permutation                   | 全探索                 |     UP     |  895   |            [リンク](./renshu/abc324d_square_permutation.cpp)            |
+| `abc325a` | Takahashi san                        | 実装                   |     AC     |   8    |         [リンク](./adt/adt_all_20261111_2/a_takahashi_san.cpp)          |
 | `abc325c` | Sensors                              | 深さ優先探索           |     AC     |  400   |            [リンク](./adt/adt_all_20261110_1/e_sensors.cpp)             |
 | `abc326b` | 326-like Numbers                     | 全探索                 |     AC     |   42   |        [リンク](./adt/adt_all_20261006_1/c_326_like_numbers.cpp)        |
 | `abc327c` | Number Place                         | 実装                   |     AC     |  169   |          [リンク](./adt/adt_all_20261008_2/e_number_place.cpp)          |
@@ -178,6 +180,7 @@
 | `abc341b` | Foreign Exchange                     | 考察                   |     AC     |  163   |        [リンク](./adt/adt_all_20261023_1/c_foreign_exchange.cpp)        |
 | `abc342a` | Yay!                                 | 実装                   |     AC     |   31   |              [リンク](./adt/adt_all_20261104_1/a_yay.cpp)               |
 | `abc344b` | Delimiter                            | 実装                   |     AC     |   47   |           [リンク](./adt/adt_all_20261012_2/c_delimiter.cpp)            |
+| `abc344d` | String Bags                          | 2DDP                   |     AC     |  854   |          [リンク](./adt/adt_all_20261111_2/g_string_bags.cpp)           |
 | `abc345c` | One Time Swap                        | 組み合わせ             |     AC     |  469   |         [リンク](./adt/adt_all_20261016_1/e_one_time_swap.cpp)          |
 | `abc346c` | Σ                                    | 連想配列               |     AC     |  179   |               [リンク](./adt/adt_all_20261009_1/e_Σ.cpp)                |
 | `abc347e` | Set Add Query                        | 累積和                 |     UP     |  1166  |         [リンク](./adt/adt_all_20261006_2/h_set_add_query.cpp)          |
@@ -185,6 +188,7 @@
 | `abc356c` | Keys                                 | ビット全探索           |     UP     |  568   |                   [リンク](./renshu/abc356c_keys.cpp)                   |
 | `abc358c` | Popcorn                              | 全探索                 |     AC     |  273   |             [リンク](./adt/adt_all_20261001_2/f_popcorn.py)             |
 | `abc359a` | Count Takahashi                      | 実装                   |     AC     |   10   |        [リンク](./adt/adt_all_20261022_1/a_count_takahashi.cpp)         |
+| `abc359b` | Couples                              | 連想配列               |     AC     |   27   |            [リンク](./adt/adt_all_20261111_2/c_couples.cpp)             |
 | `abc360a` | A Healthy Breakfast                  | 実装                   |     UP     |   19   |      [リンク](./adt/adt_all_20261026_1/b_a_healthy_breakfast.cpp)       |
 | `abc360b` | Vertical Reading                     | 実装・文字列           |     AC     |   78   |        [リンク](./adt/adt_all_20261019_1/d_vertical_reading.cpp)        |
 | `abc361b` | Intersection of Cuboids              | 幾何学                 |     AC     |  299   |         [リンク](./adt/adt_easy_20260925_1/c_intersection.cpp)          |
@@ -195,6 +199,7 @@
 | `abc367a` | Shout Everyday                       | 全探索                 |     AC     |   43   |         [リンク](./adt/adt_all_20261014_2/b_shout_everyday.cpp)         |
 | `abc368a` | Cut                                  | 配列                   |     AC     |   20   |              [リンク](./adt/adt_all_20261007_2/b_cut.cpp)               |
 | `abc369d` | Bonus EXP                            | 2DDP                   |            |  621   |                                                                         |
+| `abc359b` | Couples                              | 連想配列               |     AC     |   27   |            [リンク](./adt/adt_all_20261111_2/c_couples.cpp)             |
 | `abc370c` | Word Ladder                          | 最短経路・文字列       |     AC     |  228   |          [リンク](./adt/adt_all_20261027_1/f_word_ladder.cpp)           |
 | `abc372a` | delete .                             | 実装                   |     AC     |   12   |             [リンク](./adt/adt_all_20261006_2/b_delete.cpp)             |
 | `abc372c` | Count ABC Again                      | 考察                   |     UP     |  341   |        [リンク](./adt/adt_all_20261020_1/e_count_abc_again.cpp)         |
