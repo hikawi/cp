@@ -1,23 +1,8 @@
 // Source: https://github.com/maspypy/library/blob/main/my_template.hpp
 // 主なきMaspyよ、夢の杖のもと、我の力になれ。
 // いづれにか、かのおのづからの小さき分のやうにならまほしかる。
-#include <cassert>
-#if defined(USE_PCH)
-#include <my_template_compiled.hpp>
-
-#if defined(__GNUC__)
-#pragma GCC optimize("Ofast,unroll-loops")
-#if !defined(MASPY_NON_AVX2)
-#pragma GCC target("avx2,popcnt")
-#endif
-#endif
-
-#else // MASPY_TEMPLATE_BODY
 #include <bits/stdc++.h>
-
-#if defined(__GNUC__)
-#pragma GCC optimize("Ofast,unroll-loops")
-#endif
+#include <cassert>
 
 using namespace std;
 
@@ -28,9 +13,7 @@ using u32 = uint32_t;
 using u64 = uint64_t;
 using i128 = __int128;
 using u128 = unsigned __int128;
-
 template <class> constexpr bool dependent_false = false;
-
 template <class T>
 constexpr T infty = [] {
   static_assert(dependent_false<T>, "infty<T> is not defined");
@@ -82,10 +65,7 @@ template <class K, class V> using umap = unordered_map<K, V>;
 #define eb                         emplace_back
 #define mp                         make_pair
 #define mt                         make_tuple
-#define fi                         first
-#define se                         second
 #define el                         '\n'
-
 #define stoi                       stoll
 #define Yes                        cout << "Yes" << el
 #define No                         cout << "No" << el
@@ -93,42 +73,19 @@ template <class K, class V> using umap = unordered_map<K, V>;
 #define NO                         cout << "NO" << el
 #define MAYBE                      cout << "MAYBE" << el
 
-// require y > 0
-template <typename T> T floor(T x, T y) {
-  return x / y - (x % y < 0);
-}
+// clang-format off
+#define INT(name)  ll name; cin >> name;
+#define VEC(type, name, length) vc<type> name(length); FOR(i, length) cin >> name[i];
 
 // require y > 0
-template <typename T> T ceil(T x, T y) {
-  return (x / y) + (x % y > 0);
-}
-
+template <typename T> T floor(T x, T y) {return x / y - (x % y < 0);}
 // require y > 0
-template <typename T> T bmod(T x, T y) {
-  T r = x % y;
-  return (r < 0 ? r + y : r);
-}
-
+template <typename T> T ceil(T x, T y) {return (x / y) + (x % y > 0);}
 // require y > 0
-template <typename T> pair<T, T> divmod(T x, T y) {
-  T q = x / y, r = x % y;
-  if (r < 0)
-    --q, r += y;
-  return {q, r};
-}
-
-constexpr ll powmod(ll x, ll n, ll m) {
-  ll res = 1;
-  x = bmod(x, m);
-  while (n) {
-    if (n & 1)
-      res = (i128)res * x % m;
-    x = (i128)x * x % m;
-    n >>= 1;
-  }
-  return res;
-}
-
+template <typename T> T bmod(T x, T y) {T r = x % y;return (r < 0 ? r + y : r);}
+// require y > 0
+template <typename T> pair<T, T> divmod(T x, T y) {T q = x / y, r = x % y;if (r < 0)--q, r += y;return {q, r};}
+constexpr ll powmod(ll x, ll n, ll m) {ll res = 1;x = bmod(x, m);while (n) {if (n & 1)res = (i128)res * x % m;x = (i128)x * x % m;n >>= 1;}return res;}
 constexpr auto TEN = [] {
   array<u64, 20> A{};
   A[0] = 1;
@@ -136,20 +93,18 @@ constexpr auto TEN = [] {
     A[i] = 10 * A[i - 1];
   return A;
 }();
-
 template <typename T, typename U> T SUM(const U &A) {
   return std::accumulate(A.begin(), A.end(), T{});
 }
-
-#define MIN(v)                     *min_element(all(v))
-#define MAX(v)                     *max_element(all(v))
+#define MIN(v) *min_element(all(v))
+#define MAX(v) *max_element(all(v))
 template <class C, class T> inline long long LB(const C &c, const T &x) {
   return lower_bound(c.begin(), c.end(), x) - c.begin();
 }
 template <class C, class T> inline long long UB(const C &c, const T &x) {
   return upper_bound(c.begin(), c.end(), x) - c.begin();
 }
-#define UNIQUE(x)                  sort(all(x)), x.erase(unique(all(x)), x.end())
+#define UNIQUE(x) sort(all(x)), x.erase(unique(all(x)), x.end())
 
 template <typename T> T POP(deque<T> &que) {
   T a = que.front();
@@ -166,7 +121,6 @@ template <typename T> T POP(vc<T> &que) {
   que.pop_back();
   return a;
 }
-
 template <typename F> i128 binary_search(F check, i128 ok, i128 ng, bool check_ok = true) {
   if (check_ok)
     assert(check(ok));
@@ -178,7 +132,6 @@ template <typename F> i128 binary_search(F check, i128 ok, i128 ng, bool check_o
   }
   return ok;
 }
-
 template <typename F> double binary_search_real(F check, double ok, double ng, int iter = 100) {
   FOR(iter) {
     double x = (ok + ng) / 2;
@@ -186,7 +139,6 @@ template <typename F> double binary_search_real(F check, double ok, double ng, i
   }
   return (ok + ng) / 2;
 }
-
 template <class T, class S> inline bool chmax(T &a, const S &b) {
   T c = max<T>(a, b);
   bool changed = (c != a);
@@ -430,10 +382,7 @@ template <typename T, typename... Vectors> void concat(vc<T> &first, const Vecto
 }
 
 // i128
-template <class T, enable_if_t<is_same_v<T, i128>, int> = 0> constexpr i128 abs(T x) {
-  return x < 0 ? -x : x;
-}
-
+template <class T, enable_if_t<is_same_v<T, i128>, int> = 0> constexpr i128 abs(T x) {return x < 0 ? -x : x;}
 constexpr i128 gcd(i128 a, i128 b) {
   while (b != 0) {
     i128 c = a % b;
@@ -441,7 +390,7 @@ constexpr i128 gcd(i128 a, i128 b) {
   }
   return abs(a);
 }
-#endif // MASPY_TEMPLATE_BODY
+// clang-format on
 
 int main() {
   ios_base::sync_with_stdio(0);
