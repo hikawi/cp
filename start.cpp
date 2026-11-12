@@ -128,14 +128,6 @@ constexpr ll powmod(ll x, ll n, ll m) {
   }
   return res;
 }
-constexpr ll powdiv(ll x, ll n, ll m) {
-  x = bmod(x, m);
-  if (n < 0) {
-    ll inv = powmod(x, m - 2, m); // Modular inverse of x
-    return powmod(inv, -n, m);
-  }
-  return powmod(x, n, m);
-}
 
 constexpr auto TEN = [] {
   array<u64, 20> A{};

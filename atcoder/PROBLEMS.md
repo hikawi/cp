@@ -523,6 +523,11 @@
 | C08 | ALGO4                          | 全探索                   |     AC     | 50/99  |             [リンク](./tessoku/c08_algo4.cpp)              |
 | C09 | Taro's Vacation                | 2DDP                     |     AC     | 55/99  |         [リンク](./tessoku/c09_taros_vacation.cpp)         |
 | C10 | A Long Grid                    | 組み合わせ               |     AC     | 65/99  |          [リンク](./tessoku/c10_a_long_grid.cpp)           |
+| C11 | Election                       | 貪欲法・二分探索         |     UP     | 70/99  |            [リンク](./tessoku/c11_election.cpp)            |
+| C12 | Taro the Novel Writer          |                          |            | 70/99  |     [リンク](./tessoku/c12_taro_the_novel_writer.cpp)      |
+| C13 | Select 2                       | 組み合わせ・数学         |     AC     | 75/99  |            [リンク](./tessoku/c13_select_2.cpp)            |
+| C14 | Commute Route                  | 最短経路                 |     AC     | 75/99  |         [リンク](./tessoku/c14_commute_route.cpp)          |
+| C17 | Strange Data Structure         | データ構造               |     AC     | 90/99  |     [リンク](./tessoku/c17_strange_data_structure.cpp)     |
 
 ## Others
 

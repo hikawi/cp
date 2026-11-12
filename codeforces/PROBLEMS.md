@@ -31,21 +31,30 @@
 
 ## Problem Set
 
-| ID       | 名前                               | 種類   | ステータス | レート |
-| -------- | ---------------------------------- | ------ | :--------: | :----: |
-| `1883C`  | Raspberries                        | 考察   |     UP     |  1000  |
-| `1890A`  | Doremy's Paint 3                   | 考察   |     UP     |  800   |
-| `1896A`  | Jagged Swaps                       | 貪欲法 |     UP     |  800   |
-| `1899A`  | Game with Integers                 | 考察   |     UP     |  800   |
-| `1900A`  | Cover in Water                     | 考察   |     UP     |  800   |
-| `1901A`  | Line Trip                          | 考察   |     UP     |  800   |
-| `1903A`  | Halloumi Boxes                     | 考察   |     UP     |  800   |
-| `1913B`  | Swap and Delete                    | 貪欲法 |     UP     |  1000  |
-| `2280A`  | Are They the Same?                 | 考察   |     AC     |   -    |
-| `2280B`  | Secret String Patterns             | 考察   |     AC     |   -    |
-| `2280C`  | Reverse and Double                 | 考察   |            |   -    |
-| `2280D`  | Balanced Subsets                   |        |            |   -    |
-| `2280E`  | Anti-Productive                    |        |     WA     |   -    |
-| `2284A1` | 15K4JR3B (Easy Version)            | 考察   |     AC     |   -    |
-| `2284A2` | 15K4JR3B (Hard Version)            | 貪欲法 |     UP     |   -    |
-| `2284B`  | Introduction to the Niche Internet | 貪欲法 |            |   -    |
+| ID       | 名前                               | 種類         | ステータス | レート |
+| -------- | ---------------------------------- | ------------ | :--------: | :----: |
+| `932B`   | Recursive Queries                  | 1DDP・累積和 |     UP     |  1300  |
+| `1858A`  | Buttons                            | 考察         |     UP     |  800   |
+| `1859A`  | United We Stand                    | 考察         |     UP     |  800   |
+| `1862B`  | Sequence Game                      | 実装         |     UP     |  800   |
+| `1866A`  | Ambitious Kid                      | 考察         |     UP     |  800   |
+| `1873C`  | Target Practice                    | 実装         |     UP     |  800   |
+| `1877A`  | Goals of Victory                   | 考察         |     UP     |  800   |
+| `1878A`  | How Much Does Daytona Cost?        | 考察         |     UP     |  800   |
+| `1881A`  | Don't Try to Count                 | 実装         |     UP     |  800   |
+| `1883C`  | Raspberries                        | 考察         |     UP     |  1000  |
+| `1890A`  | Doremy's Paint 3                   | 考察         |     UP     |  800   |
+| `1896A`  | Jagged Swaps                       | 貪欲法       |     UP     |  800   |
+| `1899A`  | Game with Integers                 | 考察         |     UP     |  800   |
+| `1900A`  | Cover in Water                     | 考察         |     UP     |  800   |
+| `1901A`  | Line Trip                          | 考察         |     UP     |  800   |
+| `1903A`  | Halloumi Boxes                     | 考察         |     UP     |  800   |
+| `1913B`  | Swap and Delete                    | 貪欲法       |     UP     |  1000  |
+| `2280A`  | Are They the Same?                 | 考察         |     AC     |   -    |
+| `2280B`  | Secret String Patterns             | 考察         |     AC     |   -    |
+| `2280C`  | Reverse and Double                 | 考察         |            |   -    |
+| `2280D`  | Balanced Subsets                   |              |            |   -    |
+| `2280E`  | Anti-Productive                    |              |     WA     |   -    |
+| `2284A1` | 15K4JR3B (Easy Version)            | 考察         |     AC     |   -    |
+| `2284A2` | 15K4JR3B (Hard Version)            | 貪欲法       |     UP     |   -    |
+| `2284B`  | Introduction to the Niche Internet | 貪欲法       |            |   -    |
