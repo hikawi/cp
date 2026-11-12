@@ -14,6 +14,7 @@
 - `./dp`: Educational DP Contest.
 - `./renshu`: Random Practice Problems.
 - `./tessoku`: Problems in Tessoku Book.
+- `./typical90`: 競プロ古典９０チャッレンジ.
 
 ## コンテスト
 
