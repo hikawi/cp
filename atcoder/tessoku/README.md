@@ -2,7 +2,7 @@
 
 完成度:
 
-- Aセット: 74/77
+- Aセット: 75/77
 - Bセット: 56/58
 - Cセット: 14/20
 
@@ -76,7 +76,7 @@
 | A66 | Connect Query                  | Union-Find               |     AC     |  3/7   |         [リンク](./a66_connect_query.cpp)          |
 | A67 | MST                            | Union-Find・木構造       |     AC     |  5/7   |              [リンク](./a67_mst.cpp)               |
 | A68 | Maximum Flow                   | フロー                   |     AC     |  6/7   |          [リンク](./a68_maximum_flow.cpp)          |
-| A69 | Bipartite Matching             | グラフ                   |            |  6/7   |                                                    |
+| A69 | Bipartite Matching             | グラフ・二部マッチング   |     AC     |  6/7   |       [リンク](./a69_bipartite_matching.cpp)       |
 | A70 | Lanterns                       | 最短経路                 |     AC     |  5/7   |            [リンク](./a70_lanterns.cpp)            |
 | A71 | Homework                       | 考察                     |     AC     |  3/7   |            [リンク](./a71_homework.cpp)            |
 | A72 | Tile Painting                  | ビット全探索             |     AC     |  4/7   |         [リンク](./a72_tile_painting.cpp)          |
@@ -157,4 +157,9 @@
 | C12 | Taro the Novel Writer          |                          |            | 70/99  |     [リンク](./c12_taro_the_novel_writer.cpp)      |
 | C13 | Select 2                       | 組み合わせ・数学         |     AC     | 75/99  |            [リンク](./c13_select_2.cpp)            |
 | C14 | Commute Route                  | 最短経路                 |     AC     | 75/99  |         [リンク](./c14_commute_route.cpp)          |
+| C15 | Many Meetings                  |                          |            | 85/99  |                                                    |
+| C16 | Flights                        |                          |            | 85/99  |                                                    |
 | C17 | Strange Data Structure         | データ構造               |     AC     | 90/99  |     [リンク](./c17_strange_data_structure.cpp)     |
+| C18 | Pick Two                       |                          |            | 95/99  |                                                    |
+| C19 | Gasoline Optimization Problem  |                          |            | 95/99  |                                                    |
+| C20 | Mayor's Challenge              |                          |            | 99/99  |                                                    |
