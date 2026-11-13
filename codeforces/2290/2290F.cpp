@@ -104,7 +104,7 @@ template <typename T> T ceil(T x, T y) {
 }
 
 // require y > 0
-template <typename T> T bmod(T x, T y) {
+template <typename T> T euclidmod(T x, T y) {
   T r = x % y;
   return (r < 0 ? r + y : r);
 }
@@ -119,7 +119,7 @@ template <typename T> pair<T, T> divmod(T x, T y) {
 
 constexpr ll powmod(ll x, ll n, ll m) {
   ll res = 1;
-  x = bmod(x, m);
+  x = euclidmod(x, m);
   while (n) {
     if (n & 1)
       res = (i128)res * x % m;
@@ -456,20 +456,22 @@ void solve() {
   FOR(i, 1, n + 1) cin >> B[i];
   vi P(n + 1);
 
-  if (B[1] < 0) {
-    P[n + B[1]] = 1;
-  } else if (B[1] == 0) {
-    P[n] = 1;
-  } else {
+  FOR(i, 1, n + 1) {
+    ll index = B[i] + n + 1 - i;
+    if (!P[index]) {
+      P[index] = i;
+      continue;
+    }
+    cout << -1 << el;
+    return;
+  }
+  FOR(i, 1, n + 1) if (!P[i]) {
     cout << -1 << el;
     return;
   }
 
-  FOR(i, 2, n + 1) {
-  }
-
-  P.erase(P.begin());
-  cout << P << el;
+  FOR(i, 1, n + 1) cout << P[i] << " ";
+  cout << el;
 }
 
 int main() {

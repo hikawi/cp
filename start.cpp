@@ -77,319 +77,129 @@ template <class K, class V> using umap = unordered_map<K, V>;
 #define INT(name)  ll name; cin >> name;
 #define VEC(type, name, length) vc<type> name(length); FOR(i, length) cin >> name[i];
 
-// require y > 0
-template <typename T> T floor(T x, T y) {return x / y - (x % y < 0);}
-// require y > 0
-template <typename T> T ceil(T x, T y) {return (x / y) + (x % y > 0);}
-// require y > 0
-template <typename T> T bmod(T x, T y) {T r = x % y;return (r < 0 ? r + y : r);}
-// require y > 0
-template <typename T> pair<T, T> divmod(T x, T y) {T q = x / y, r = x % y;if (r < 0)--q, r += y;return {q, r};}
-constexpr ll powmod(ll x, ll n, ll m) {ll res = 1;x = bmod(x, m);while (n) {if (n & 1)res = (i128)res * x % m;x = (i128)x * x % m;n >>= 1;}return res;}
-constexpr auto TEN = [] {
-  array<u64, 20> A{};
-  A[0] = 1;
-  for (int i = 1; i < 20; ++i)
-    A[i] = 10 * A[i - 1];
-  return A;
-}();
-template <typename T, typename U> T SUM(const U &A) {
-  return std::accumulate(A.begin(), A.end(), T{});
-}
 #define MIN(v) *min_element(all(v))
 #define MAX(v) *max_element(all(v))
-template <class C, class T> inline long long LB(const C &c, const T &x) {
-  return lower_bound(c.begin(), c.end(), x) - c.begin();
-}
-template <class C, class T> inline long long UB(const C &c, const T &x) {
-  return upper_bound(c.begin(), c.end(), x) - c.begin();
-}
 #define UNIQUE(x) sort(all(x)), x.erase(unique(all(x)), x.end())
 
-template <typename T> T POP(deque<T> &que) {
-  T a = que.front();
-  que.pop_front();
-  return a;
-}
-template <class T, class Container, class Compare> T POP(priority_queue<T, Container, Compare> &que) {
-  T a = que.top();
-  que.pop();
-  return a;
-}
-template <typename T> T POP(vc<T> &que) {
-  T a = que.back();
-  que.pop_back();
-  return a;
-}
-template <typename F> i128 binary_search(F check, i128 ok, i128 ng, bool check_ok = true) {
-  if (check_ok)
-    assert(check(ok));
-  while (1) {
-    i128 x = (ok + ng) / 2;
-    if (x == ok || x == ng)
-      break;
-    (check(x) ? ok : ng) = x;
-  }
-  return ok;
-}
-template <typename F> double binary_search_real(F check, double ok, double ng, int iter = 100) {
-  FOR(iter) {
-    double x = (ok + ng) / 2;
-    (check(x) ? ok : ng) = x;
-  }
-  return (ok + ng) / 2;
-}
-template <class T, class S> inline bool chmax(T &a, const S &b) {
-  T c = max<T>(a, b);
-  bool changed = (c != a);
-  a = c;
-  return changed;
-}
-template <class T, class S> inline bool chmin(T &a, const S &b) {
-  T c = min<T>(a, b);
-  bool changed = (c != a);
-  a = c;
-  return changed;
-}
-ostream &operator<<(ostream &o, pi &p) {
-  o << "(" << p.first << "," << p.second << ")";
-  return o;
-}
-template <class T> ostream &operator<<(ostream &o, vc<T> &v) {
-  if (v.empty()) {
-    o << "[]";
-    return o;
-  }
-  cout << "[";
-  for (auto a : v)
-    o << a << ",";
-  cout << "]";
-  return o;
-}
-template <class T> ostream &operator<<(ostream &o, set<T> &v) {
-  if (v.empty()) {
-    o << "{}";
-    return o;
-  }
-  o << "{";
-  for (auto it = v.begin(); it != v.end(); it++)
-    o << *it << ",";
-  o << "}";
-  return o;
-}
-template <class T> ostream &operator<<(ostream &o, unordered_set<T> &v) {
-  if (v.empty()) {
-    o << "{}";
-    return o;
-  }
-  o << "{";
-  for (auto it = v.begin(); it != v.end(); it++)
-    o << *it << ",";
-  o << "}";
-  return o;
-}
-template <class K, class V> ostream &operator<<(ostream &o, map<K, V> &m) {
-  if (m.empty()) {
-    o << "{}";
-    return o;
-  }
-  o << "{";
-  for (auto &[k, v] : m)
-    cout << "(" << k << "->" << v << "),";
-  o << "}";
-  return o;
-}
-template <class K, class V> ostream &operator<<(ostream &o, unordered_map<K, V> &m) {
-  if (m.empty()) {
-    o << "{}";
-    return o;
-  }
-  o << "{";
-  for (auto &[k, v] : m)
-    cout << "(" << k << "->" << v << "),";
-  o << "}";
-  return o;
-}
+template <typename T> T floordiv(T x, T y /* y > 0 */) {return x / y - (x % y < 0);}
+template <typename T> T ceildiv(T x, T y /* y > 0 */) {return (x / y) + (x % y > 0);}
+template <typename T> T euclidmod(T x, T y /* y > 0 */) {T r = x % y;return (r < 0 ? r + y : r);}
+template <typename T> pair<T, T> divmod(T x, T y /* y > 0 */) {T q = x / y, r = x % y;if (r < 0)--q, r += y;return {q, r};}
+constexpr ll powmod(ll x, ll n, ll m) {ll res = 1;x = euclidmod(x, m);while (n) {if (n & 1)res = (i128)res * x % m;x = (i128)x * x % m;n >>= 1;}return res;}
+constexpr auto TEN = [] {array<u64, 20> A{};A[0] = 1;for (int i = 1; i < 20; ++i)A[i] = 10 * A[i - 1];return A;}();
+template <typename T, typename U> T SUM(const U &A) {return std::accumulate(A.begin(), A.end(), T{});}
+template <class C, class T> inline long long LB(const C &c, const T &x) {return lower_bound(c.begin(), c.end(), x) - c.begin();}
+template <class C, class T> inline long long UB(const C &c, const T &x) {return upper_bound(c.begin(), c.end(), x) - c.begin();}
+
+template <typename T> T POP(deque<T> &que) {T a = que.front();que.pop_front();return a;}
+template <class T, class Container, class Compare> T POP(priority_queue<T, Container, Compare> &que) {T a = que.top();que.pop();return a;}
+template <typename T> T POP(vc<T> &que) {T a = que.back();que.pop_back();return a;}
+template <typename F> i128 binary_search(F check, i128 ok, i128 ng, bool check_ok = true) {if (check_ok)assert(check(ok));while (1) {i128 x = (ok + ng) / 2;if (x == ok || x == ng)break;(check(x) ? ok : ng) = x;}return ok;}
+template <typename F> double binary_search_real(F check, double ok, double ng, int iter = 100) {FOR(iter) {double x = (ok + ng) / 2;(check(x) ? ok : ng) = x;}return (ok + ng) / 2;}
+template <class T, class S> inline bool chmax(T &a, const S &b) {T c = max<T>(a, b);bool changed = (c != a);a = c;return changed;}
+template <class T, class S> inline bool chmin(T &a, const S &b) {T c = min<T>(a, b);bool changed = (c != a);a = c;return changed;}
+
+#ifndef ONLINE_JUDGE
+
+template<typename T, typename V> void __print(const pair<T, V> &x);
+template<typename T> void __print(const T &x);
+
+void __print(int x) { cerr << x; }
+void __print(long x) { cerr << x; }
+void __print(long long x) { cerr << x; }
+void __print(unsigned x) { cerr << x; }
+void __print(unsigned long x) { cerr << x; }
+void __print(unsigned long long x) { cerr << x; }
+void __print(float x) { cerr << x; }
+void __print(double x) { cerr << x; }
+void __print(long double x) { cerr << x; }
+void __print(char x) { cerr << '\'' << x << '\''; }
+void __print(const char *x) { cerr << '\"' << x << '\"'; }
+void __print(const string &x) { cerr << '\"' << x << '\"'; }
+void __print(bool x) { cerr << (x ? "true" : "false"); }
+
+template<typename T, typename V> void __print(const pair<T, V> &x) {cerr << '{'; __print(x.first); cerr << ", "; __print(x.second); cerr << '}';}
+template<typename T> void __print(const T &x) {int f = 0;cerr << '{';for (auto &i : x) cerr << (f++ ? ", " : ""), __print(i);cerr << "}";}
+void _print() { cerr << "]\n"; }
+template <typename T, typename... V> void _print(T t, V... v) {__print(t);if (sizeof...(v)) cerr << ", ";_print(v...);}
+
+#define dbg(x...) cerr << "\e[91m"<<__func__<<":"<<__LINE__<<" [" << #x << "] = ["; _print(x); cerr << "\e[39m" << flush;
+#else
+#define dbg(x...)
+#endif
 
 // bit operations
-int popcnt(int x) {
-  return __builtin_popcount(x);
-}
-int popcnt(u32 x) {
-  return __builtin_popcount(x);
-}
-int popcnt(ll x) {
-  return __builtin_popcountll(x);
-}
-int popcnt(u64 x) {
-  return __builtin_popcountll(x);
-}
-int popcnt_sgn(int x) {
-  return (__builtin_parity(unsigned(x)) & 1 ? -1 : 1);
-}
-int popcnt_sgn(u32 x) {
-  return (__builtin_parity(x) & 1 ? -1 : 1);
-}
-int popcnt_sgn(ll x) {
-  return (__builtin_parityll(x) & 1 ? -1 : 1);
-}
-int popcnt_sgn(u64 x) {
-  return (__builtin_parityll(x) & 1 ? -1 : 1);
-}
+int popcnt(int x) {return __builtin_popcount(x);}
+int popcnt(u32 x) {return __builtin_popcount(x);}
+int popcnt(ll x) {return __builtin_popcountll(x);}
+int popcnt(u64 x) {return __builtin_popcountll(x);}
+int popcnt_sgn(int x) {return (__builtin_parity(unsigned(x)) & 1 ? -1 : 1);}
+int popcnt_sgn(u32 x) {return (__builtin_parity(x) & 1 ? -1 : 1);}
+int popcnt_sgn(ll x) {return (__builtin_parityll(x) & 1 ? -1 : 1);}
+int popcnt_sgn(u64 x) {return (__builtin_parityll(x) & 1 ? -1 : 1);}
+
 // (0, 1, 2, 3, 4) -> (-1, 0, 1, 1, 2)
-int topbit(int x) {
-  return (x == 0 ? -1 : 31 - __builtin_clz(x));
-}
-int topbit(u32 x) {
-  return (x == 0 ? -1 : 31 - __builtin_clz(x));
-}
-int topbit(ll x) {
-  return (x == 0 ? -1 : 63 - __builtin_clzll(x));
-}
-int topbit(u64 x) {
-  return (x == 0 ? -1 : 63 - __builtin_clzll(x));
-}
+int topbit(int x) {return (x == 0 ? -1 : 31 - __builtin_clz(x));}
+int topbit(u32 x) {return (x == 0 ? -1 : 31 - __builtin_clz(x));}
+int topbit(ll x) {return (x == 0 ? -1 : 63 - __builtin_clzll(x));}
+int topbit(u64 x) {return (x == 0 ? -1 : 63 - __builtin_clzll(x));}
+
 // (0, 1, 2, 3, 4) -> (-1, 0, 1, 0, 2)
-int lowbit(int x) {
-  return (x == 0 ? -1 : __builtin_ctz(x));
-}
-int lowbit(u32 x) {
-  return (x == 0 ? -1 : __builtin_ctz(x));
-}
-int lowbit(ll x) {
-  return (x == 0 ? -1 : __builtin_ctzll(x));
-}
-int lowbit(u64 x) {
-  return (x == 0 ? -1 : __builtin_ctzll(x));
-}
+int lowbit(int x) {return (x == 0 ? -1 : __builtin_ctz(x));}
+int lowbit(u32 x) {return (x == 0 ? -1 : __builtin_ctz(x));}
+int lowbit(ll x) {return (x == 0 ? -1 : __builtin_ctzll(x));}
+int lowbit(u64 x) {return (x == 0 ? -1 : __builtin_ctzll(x));}
 
-template <typename T> T kth_bit(int k) {
-  assert(0 <= k && k < int(8 * sizeof(T)));
-  return T(1) << k;
-}
-template <typename T> bool has_kth_bit(T x, int k) {
-  assert(0 <= k && k < int(8 * sizeof(T)));
-  return x >> k & 1;
-}
-
+template <typename T> T kth_bit(int k) {assert(0 <= k && k < int(8 * sizeof(T)));return T(1) << k;}
+template <typename T> bool has_kth_bit(T x, int k) {assert(0 <= k && k < int(8 * sizeof(T)));return x >> k & 1;}
 template <typename T> struct all_bit {
   static_assert(is_integral<T>::value);
   T s;
-  all_bit(T s) : s(s) {
-    assert(s >= 0);
-  }
+  all_bit(T s) : s(s) {assert(s >= 0);}
   struct iter {
     T s;
-    int operator*() const {
-      return lowbit(s);
-    }
-    void operator++() {
-      s &= s - 1;
-    }
-    bool operator!=(nullptr_t) const {
-      return s;
-    }
+    int operator*() const {return lowbit(s);}
+    void operator++() {s &= s - 1;}
+    bool operator!=(nullptr_t) const {return s;}
   };
-  iter begin() const {
-    return {s};
-  }
-  nullptr_t end() const {
-    return nullptr;
-  }
+  iter begin() const {return {s};}
+  nullptr_t end() const {return nullptr;}
 };
 
 template <typename T> struct all_subset {
   static_assert(is_integral<T>::value);
   T s;
-  all_subset(T s) : s(s) {
-    assert(s >= 0);
-  }
+  all_subset(T s) : s(s) {assert(s >= 0);}
   struct iter {
     T s, t;
     bool done = false;
-    T operator*() const {
-      return t;
-    }
-    void operator++() {
-      done = (t == 0);
-      t = (t - 1) & s;
-    }
-    bool operator!=(nullptr_t) const {
-      return !done;
-    }
+    T operator*() const {return t;}
+    void operator++() {done = (t == 0);t = (t - 1) & s;}
+    bool operator!=(nullptr_t) const {return !done;}
   };
-  iter begin() const {
-    return {s, s};
-  }
-  nullptr_t end() const {
-    return nullptr;
-  }
+  iter begin() const {return {s, s};}
+  nullptr_t end() const {return nullptr;}
 };
 
-constexpr u64 full_mask(int n) {
-  assert(0 <= n && n <= 64);
-  return n == 64 ? -1ULL : (1ULL << n) - 1;
-}
-
-u64 bit_reverse(u64 x) {
-  x = ((x & 0x5555555555555555ULL) << 1) | ((x >> 1) & 0x5555555555555555ULL);
-  x = ((x & 0x3333333333333333ULL) << 2) | ((x >> 2) & 0x3333333333333333ULL);
-  x = ((x & 0x0f0f0f0f0f0f0f0fULL) << 4) | ((x >> 4) & 0x0f0f0f0f0f0f0f0fULL);
-  x = ((x & 0x00ff00ff00ff00ffULL) << 8) | ((x >> 8) & 0x00ff00ff00ff00ffULL);
-  x = ((x & 0x0000ffff0000ffffULL) << 16) | ((x >> 16) & 0x0000ffff0000ffffULL);
-  x = (x << 32) | (x >> 32);
-  return x;
-}
+constexpr u64 full_mask(int n) {assert(0 <= n && n <= 64);return n == 64 ? -1ULL : (1ULL << n) - 1;}
+u64 bit_reverse(u64 x) {x = ((x & 0x5555555555555555ULL) << 1) | ((x >> 1) & 0x5555555555555555ULL);x = ((x & 0x3333333333333333ULL) << 2) | ((x >> 2) & 0x3333333333333333ULL);x = ((x & 0x0f0f0f0f0f0f0f0fULL) << 4) | ((x >> 4) & 0x0f0f0f0f0f0f0f0fULL);x = ((x & 0x00ff00ff00ff00ffULL) << 8) | ((x >> 8) & 0x00ff00ff00ff00ffULL);x = ((x & 0x0000ffff0000ffffULL) << 16) | ((x >> 16) & 0x0000ffff0000ffffULL);x = (x << 32) | (x >> 32);return x;}
 
 // ? は -1
-vc<int> s_to_vi(const string &S, char first_char) {
-  vc<int> A(S.size());
-  FOR(i, S.size()) {
-    A[i] = (S[i] != '?' ? S[i] - first_char : -1);
-  }
-  return A;
-}
+vc<int> s_to_vi(const string &S, char first_char) {vc<int> A(S.size());FOR(i, S.size()) {A[i] = (S[i] != '?' ? S[i] - first_char : -1);}return A;}
 
-template <typename T, typename U> vc<T> cumsum(const vc<U> &A, int off = 1) {
-  int N = A.size();
-  vc<T> B(N + 1);
-  FOR(i, N) {
-    B[i + 1] = B[i] + A[i];
-  }
-  if (off == 0)
-    B.erase(B.begin());
-  return B;
-}
+template <typename T, typename U> vc<T> cumsum(const vc<U> &A, int off = 1) {int N = A.size();vc<T> B(N + 1);FOR(i, N) {B[i + 1] = B[i] + A[i];}if (off == 0)B.erase(B.begin());return B;}
 
 // stable sort
-template <typename T> vc<int> argsort(const vc<T> &A) {
-  vc<int> ids(len(A));
-  iota(all(ids), 0);
-  sort(all(ids), [&](int i, int j) { return (A[i] == A[j] ? i < j : A[i] < A[j]); });
-  return ids;
-}
+template <typename T> vc<int> argsort(const vc<T> &A) {vc<int> ids(len(A));iota(all(ids), 0);sort(all(ids), [&](int i, int j) { return (A[i] == A[j] ? i < j : A[i] < A[j]); });return ids;}
 
 // A[I[0]], A[I[1]], ...
-template <typename T> vc<T> rearrange(const vc<T> &A, const vc<int> &I) {
-  vc<T> B(len(I));
-  FOR(i, len(I)) B[i] = A[I[i]];
-  return B;
-}
+template <typename T> vc<T> rearrange(const vc<T> &A, const vc<int> &I) {vc<T> B(len(I));FOR(i, len(I)) B[i] = A[I[i]];return B;}
 
-template <typename T, typename... Vectors> void concat(vc<T> &first, const Vectors &...others) {
-  first.reserve(first.size() + (others.size() + ... + 0));
-  (first.insert(first.end(), others.begin(), others.end()), ...);
-}
+template <typename T, typename... Vectors> void concat(vc<T> &first, const Vectors &...others) {first.reserve(first.size() + (others.size() + ... + 0));(first.insert(first.end(), others.begin(), others.end()), ...);}
 
 // i128
 template <class T, enable_if_t<is_same_v<T, i128>, int> = 0> constexpr i128 abs(T x) {return x < 0 ? -x : x;}
-constexpr i128 gcd(i128 a, i128 b) {
-  while (b != 0) {
-    i128 c = a % b;
-    a = b, b = c;
-  }
-  return abs(a);
-}
+constexpr i128 gcd(i128 a, i128 b) {while (b != 0) {i128 c = a % b;a = b, b = c;}return abs(a);}
 // clang-format on
 
 int main() {
