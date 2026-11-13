@@ -1,0 +1,265 @@
+:root {
+  --primary: #ff6b91;
+  --primary-soft: #fff0f4;
+  --secondary: #72d5d4;
+  --secondary-soft: #eefafa;
+  --text: #2b2930;
+  --text-muted: #6e6a75;
+  --bg: #fffcfd;
+  --surface: #ffffff;
+  --border: #f3dce3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", -apple-system, sans-serif;
+  line-height: 1.8;
+  color: var(--text);
+  background-color: var(--bg);
+  background-image: radial-gradient(var(--border) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header & Navigation */
+.site-header {
+  background: var(--surface);
+  border-bottom: 2px dashed var(--secondary);
+  padding: 1rem 0;
+  margin-bottom: 2.5rem;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--primary);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.site-title:hover {
+  background: none;
+  opacity: 0.8;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1.5px solid transparent;
+  transition: all 0.15s ease;
+}
+
+.site-nav a:hover {
+  color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.site-nav a.active {
+  color: var(--primary);
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+
+/* Main Content Area */
+main.content {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem 2.25rem;
+  margin-bottom: 4rem;
+}
+
+/* Typography & Accents */
+.content h1 {
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.content h2 {
+  font-size: 1.25rem;
+  color: var(--text);
+  margin-top: 2.2rem;
+  padding: 0.25rem 0.85rem;
+  background: var(--secondary-soft);
+  border-left: 4px solid var(--secondary);
+  border-radius: 0 8px 8px 0;
+}
+
+.content h3 {
+  font-size: 1.08rem;
+  color: var(--primary);
+  margin-top: 1.6rem;
+}
+
+/* ボルド（太字）を Secondary カラーで強調 */
+strong, b {
+  font-weight: 700;
+  color: #1f7a79;
+  background: linear-gradient(transparent 60%, var(--secondary-soft) 60%);
+  padding: 0 0.2em;
+  border-radius: 3px;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-color: var(--secondary);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+a:hover {
+  background-color: var(--primary-soft);
+}
+
+/* Blockquotes & Code */
+blockquote {
+  margin: 1.5rem 0;
+  padding: 0.8rem 1.2rem;
+  background: var(--primary-soft);
+  border: 1.5px dashed var(--primary);
+  border-radius: 12px;
+  color: var(--text);
+}
+
+blockquote p {
+  margin: 0;
+}
+
+code {
+  font-family: "JetBrains Mono", monospace;
+  background: var(--secondary-soft);
+  color: #1f6e6d;
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+  font-size: 0.88em;
+}
+
+pre {
+  background: #282630;
+  color: #f8f8f2;
+  padding: 1.1rem 1.3rem;
+  border-radius: 12px;
+  border: 2px solid var(--secondary);
+  overflow-x: auto;
+  line-height: 1.55;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.5rem 0;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th {
+  background: var(--primary);
+  color: #ffffff;
+  font-weight: 700;
+  text-align: left;
+  padding: 0.65rem 0.9rem;
+  font-size: 0.92rem;
+}
+
+td {
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:nth-child(even) td {
+  background: var(--primary-soft);
+}
+
+tbody tr:hover td {
+  background: var(--secondary-soft);
+}
+
+/* 難易度バッジ共通スタイル */
+.diff-badge {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 600;
+  font-size: 0.85em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1.5px solid currentColor;
+  display: inline-block;
+}
+
+/* AtCoder 難易度カラー */
+.ac-gray   { color: #808080; } /* < 400 */
+.ac-brown  { color: #804000; } /* 400 - 799 */
+.ac-green  { color: #008000; } /* 800 - 1199 */
+.ac-cyan   { color: #00c0c0; } /* 1200 - 1599 */
+.ac-blue   { color: #0000ff; } /* 1600 - 1999 */
+.ac-yellow { color: #c0c000; } /* 2000 - 2399 */
+.ac-orange { color: #ff8000; } /* 2400 - 2799 */
+.ac-red    { color: #ff0000; } /* >= 2800 */
+
+/* Codeforces 難易度カラー */
+.cf-gray   { color: #808080; } /* < 1200 (Newbie) */
+.cf-green  { color: #008000; } /* 1200 - 1399 (Pupil) */
+.cf-cyan   { color: #03a89e; } /* 1400 - 1599 (Specialist) */
+.cf-blue   { color: #0000ff; } /* 1600 - 1899 (Expert) */
+.cf-violet { color: #aa00aa; } /* 1900 - 2099 (Candidate Master) */
+.cf-orange { color: #ff8c00; } /* 2100 - 2399 (Master / IM) */
+.cf-red    { color: #ff0000; } /* >= 2400 (GM / IGM / LGM) */
+
+@media (max-width: 600px) {
+  main.content {
+    padding: 1.4rem 1.1rem;
+    border-radius: 12px;
+  }
+  th, td {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.88rem;
+  }
+}

@@ -1,6 +1,15 @@
-title: CP Notes
+title: 🌸 競プロメモ
 markdown: kramdown
 permalink: pretty
+url: "https://cp.luny.dev"
+baseurl: ""
+collections:
+  codeforces:
+    output: true
+    permalink: /codeforces/:path
+  atcoder:
+    output: true
+    permalink: /atcoder/:path
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -10,8 +19,13 @@ defaults:
       path: ""
     values:
       layout: default
-      lang: ja
   - scope:
-      path: "**/en"
+      path: "codeforces"
+      type: "codeforces"
     values:
-      lang: en
+      platform: "Codeforces"
+  - scope:
+      path: "atcoder"
+      type: "atcoder"
+    values:
+      platform: "AtCoder"

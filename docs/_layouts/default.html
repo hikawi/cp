@@ -1,9 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title | default: site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Zen+Maru+Gothic:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="{{ '/assets/css/style.css' | relative_url }}"
@@ -13,9 +19,21 @@
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="site-title" href="{{ '/' | relative_url }}"
-          >{{ site.title }}</a
-        >
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.title }}
+        </a>
+        <nav class="site-nav">
+          <a
+            href="{{ '/atcoder/' | relative_url }}"
+            class="{% if page.url contains '/atcoder' %}active{% endif %}"
+            >AtCoder</a
+          >
+          <a
+            href="{{ '/codeforces/' | relative_url }}"
+            class="{% if page.url contains '/codeforces' %}active{% endif %}"
+            >Codeforces</a
+          >
+        </nav>
       </div>
     </header>
 
