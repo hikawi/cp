@@ -1,0 +1,17 @@
+title: CP Notes
+markdown: kramdown
+permalink: pretty
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: ja
+  - scope:
+      path: "**/en"
+    values:
+      lang: en
