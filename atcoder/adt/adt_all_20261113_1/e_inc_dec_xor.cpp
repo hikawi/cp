@@ -212,13 +212,6 @@ int main() {
   vi A(n);
   uset<ll> nonzeros;
 
-  auto flip = [&](ll a) {
-    if (nonzeros.count(a))
-      nonzeros.erase(a);
-    else
-      nonzeros.insert(a);
-  };
-
   ll res = 0;
   FOR(q) {
     ll t;
@@ -228,24 +221,21 @@ int main() {
       cin >> x;
       x--;
       res ^= A[x];
-      if (A[x])
-        flip(A[x]);
       A[x]++;
       res ^= A[x];
-      if (A[x])
-        flip(A[x]);
-      dbg(nonzeros);
+      nonzeros.insert(x);
     } else {
       uset<ll> rounds;
       for (auto s : nonzeros) {
-        res ^= s;
-        if (s - 1 > 0) {
-          res ^= (s - 1);
-          rounds.insert(s - 1);
+        ll v = A[s];
+        res ^= v;
+        A[s]--;
+        if (A[s]) {
+          res ^= A[s];
+          rounds.insert(s);
         }
       }
       nonzeros.swap(rounds);
-      dbg(nonzeros);
     }
 
     cout << res << el;

@@ -54,6 +54,7 @@
 | abc214b | How Many                             | 全探索                 | AC         | 53     |
 | abc215b | log2(N)                              | 数学                   | AC         | 68     |
 | abc215d | Coprime 2                            | 数学                   |            | 736    |
+| abc216c | Many Balls                           | 貪欲法                 | AC         | 145    |
 | abc217a | Lexicographic Order                  | 実装                   | AC         | 21     |
 | abc217b | AtCoder Quiz                         | 実装                   | AC         | 22     |
 | abc218a | Weather Forecast                     | 実装                   | AC         | 7      |
@@ -70,7 +71,7 @@
 | abc232a | QQ solver                            | 実装                   | AC         | 9      |
 | abc225a | Distinct Strings                     | 全探索                 | AC         | 12     |
 | abc232c | Graph Isomorphism                    | 全探索                 | AC         | 685    |
-| abc234e | Arithmetic Number                    | 二分探索               | UP         | 899    |
+| abc234e | Arithmetic Number                    | 二分探索・構造         | AC         | 899    |
 | abc235c | The Kth Time Query                   | 連想配列               | AC         | 249    |
 | abc236b | Who is missing?                      | 文字列・実装           | AC         | 29     |
 | abc237b | Matrix Transposition                 | 行列                   | UP         | 48     |
@@ -113,6 +114,7 @@
 | abc271a | 484588                               | 実装                   | AC         | 28     |
 | abc271b | Maintain Multiple Sequences          | 配列                   | AC         | 97     |
 | abc272d | Root M Leaper                        | 行列・幅優先探索       | UP         | 804    |
+| abc273a | A Recursive Function                 | 実装                   | AC         | 11     |
 | abc274b | Line Sensor                          | 行列                   | AC         | 48     |
 | abc275d | Yet Another Recursive Function       | 再帰                   | AC         | 606    |
 | abc277a | ^{-1}                                | 実装                   | AC         | 11     |
@@ -142,6 +144,7 @@
 | abc298c | Cards Query Problem                  | 連想配列               | AC         | 448    |
 | abc299c | Dango                                | 文字列                 | AC         | 191    |
 | abc302a | Attack                               | 実装                   | AC         | 24     |
+| abc302b | Find snuke                           | 実装                   | AC         | 352    |
 | abc303a | Similar String                       | 実装                   | AC         | 22     |
 | abc304a | First Player                         | 配列                   | AC         | -      |
 | abc306a | Echo                                 | 実装                   | AC         | 0      |
@@ -174,6 +177,7 @@
 | abc330c | Minimize Abs 2                       | 数学                   | UP         | 519    |
 | abc331a | Tomorrow                             | 実装                   | AC         | 25     |
 | abc331f | Palindrome Query                     | セグメント木           |            | 1666   |
+| abc332a | Online Shopping                      | 実装                   | AC         | 9      |
 | abc332b | Glass and Mug                        | 実装                   | AC         | 76     |
 | abc334a | Christmas Present                    | 実装                   | AC         | 10     |
 | abc334b | Christmas Trees                      | 数学                   | UP         | 479    |
@@ -244,6 +248,7 @@
 | abc405c | Sum of Product                       | 累積和                 | AC         | 102    |
 | abc406b | Product Calculator                   | 数学                   | UP         | 177    |
 | abc407a | Approximation                        | 実装                   | UP         | 587    |
+| abc408b | Compression                          | 実装                   | AC         | 35     |
 | abc409b | Citation                             | 二分探索               | AC         | 126    |
 | abc410c | Rotatable Array                      | 実装・配列             | AC         | 230    |
 | abc411a | Required Length                      | 実装                   | AC         | 11     |
@@ -304,6 +309,7 @@
 | abc469b | Isolated Seats                       | 実装                   | AC         | 35     |
 | abc470a | Fizz                                 | 実装                   | AC         | 12     |
 | abc470b | Monocolor                            | 考察                   | AC         | 29     |
+| abc470c | Inc, Dec, Xor                        | 考察                   | UP         | 1006   |
 | abc471c | Cookies and Greedy Takahashi         | 連結リスト             | UP         | 301    |
 | abc471d | Chargers                             | 考察                   | UP         | 570    |
 | abc473c | Change Schools                       | 連想配列               | AC         | 120    |
