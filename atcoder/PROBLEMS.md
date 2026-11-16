@@ -46,6 +46,7 @@
 | abc150c | Count Order                          | 全探索                 | UP         | 422    |
 | abc160d | Line++                               | 最短経路               | UP         | 879    |
 | abc171c | One Quadrillion and One Dalmatians   | 数学                   | UP         | 560    |
+| abc180d | Takahashi Unevolved                  | 数学                   | UP         | 752    |
 | abc189c | Mandarin Orange                      | 全探索                 | UP         | 565    |
 | abc198c | Compass Walking                      | 数学                   | UP         | 413    |
 | abc212b | Weak Password                        | 実装                   | AC         | 64     |
@@ -104,6 +105,7 @@
 | abc260d | Draw Your Cards                      | 二分探索・連想配列     | UP         | 1074   |
 | abc261a | Intersection                         | 実装                   | AC         | 51     |
 | abc262b | Triangle (Easier)                    | グラフ                 | AC         | 220    |
+| abc264a | "atcoder".substr()                   | 実装                   | AC         | 8      |
 | abc264b | Nice Grid                            | 実装・数学             | AC         | 55     |
 | abc265b | Explore                              | 配列                   | AC         | 152    |
 | abc267a | Saturday                             | 実装                   | AC         | 13     |
@@ -133,6 +135,7 @@
 | abc288a | Many A+B Problems                    | 実装                   | AC         | 6      |
 | abc289b | レ                                   | 配列                   | AC         | 225    |
 | abc289d | Step Up Robot                        | 1DDP                   | AC         | 551    |
+| abc290b | Qual B                               | 貪欲法                 | AC         | 22     |
 | abc291a | camel Case                           | 実装・文字列           | AC         | 8      |
 | abc292a | CAPS LOCK                            | 実装                   | AC         | 7      |
 | abc294b | ASCII Art                            | 行列                   | AC         | 25     |
@@ -171,6 +174,7 @@
 | abc325c | Sensors                              | 深さ優先探索           | AC         | 400    |
 | abc326b | 326-like Numbers                     | 全探索                 | AC         | 42     |
 | abc327c | Number Place                         | 実装                   | AC         | 169    |
+| abc328b | 11/11                                | 全探索                 | AC         | 86     |
 | abc329a | Spread                               | 実装                   | AC         | 9      |
 | abc329c | Count xxx                            | 文字列・尺取り法       | AC         | 205    |
 | abc329d | Election Quick Report                | 連想配列               | AC         | 263    |
@@ -179,6 +183,7 @@
 | abc331f | Palindrome Query                     | セグメント木           |            | 1666   |
 | abc332a | Online Shopping                      | 実装                   | AC         | 9      |
 | abc332b | Glass and Mug                        | 実装                   | AC         | 76     |
+| abc332c | T-shirts                             | 貪欲法                 | AC         | 161    |
 | abc334a | Christmas Present                    | 実装                   | AC         | 10     |
 | abc334b | Christmas Trees                      | 数学                   | UP         | 479    |
 | abc336a | Long Loong                           | 実装                   | AC         | 6      |
@@ -223,6 +228,7 @@
 | abc380c | Move Segment                         | 実装                   | AC         | 223    |
 | abc381b | 1122 String                          | 文字列・実装           | UP         | 52     |
 | abc382c | Kaiten Sushi                         | 二分探索               | UP         | 476    |
+| abc383c | Humidifier 3                         | 幅優先探索             | UP         | 750    |
 | abc384c | Perfect Standings                    | 実装                   | AC         | 187    |
 | abc385a | Equally                              | 実装                   | AC         | 14     |
 | abc386a | Full House 2                         | 実装・連想配列         | AC         | 25     |
@@ -262,6 +268,7 @@
 | abc417a | A Substring                          | 実装                   | AC         | 15     |
 | abc419a | AtCoder Language                     | 実装                   | AC         | 16     |
 | abc421a | Misdelivery                          | 連想配列               | AC         | 14     |
+| abc423a | Scary Fee                            | 数学                   | AC         | 22     |
 | abc423c | Lock All Doors                       | 考察                   | UP         | 377    |
 | abc424a | Isosceles                            | 実装                   | AC         | 4      |
 | abc425b | Find Permutation 2                   | 考察                   | AC         | 82     |
@@ -272,10 +279,12 @@
 | abc430d | Neighbor Distance                    | 二分探索               | UP         | 982    |
 | abc431a | Robot Balance                        | 実装                   | AC         | 10     |
 | abc433a | Happy Birthday! 4                    | 実装                   | UP         | 43     |
+| abc433d | 138138                               | 考察                   | UP         | 43     |
 | abc434c | Flapping Takahashi                   | 考察                   | AC         | 374    |
 | abc435a | Triangular Number                    | 数学                   | AC         | 6      |
 | abc435d | Reachability Query 2                 | 深さ優先探索           | UP         | 568    |
 | abc435e | Cover query                          | 考察                   |            | 982    |
+| abc436c | 2x2 Placing                          | 実装                   | AC         | 248    |
 | abc438c | 1D puyopuyo                          | 配列                   | AC         | 368    |
 | abc438d | Tail of Snake                        |                        |            | 652    |
 | abc440b | Trifecta                             | 配列                   | AC         | 27     |
@@ -353,12 +362,19 @@
 | abc483c | Second Choice Election               | 実装・データ構造       | AC         | 770    |
 | abc483d | Glitchy Robot                        | 全探索・セグメント木   | AC         | 965    |
 | abc483e | Typo Pairs                           |                        |            | 1473   |
+| abc484a | Chocolate Bar Count                  | 実装                   | AC         | 16     |
+| abc484b | Nineball                             | 実装                   | AC         | 27     |
+| abc484c | Move One Card                        | 考察                   | AC         | 480    |
+| abc484d | Move One Card Left                   | 考察                   | UP         | 938    |
+| abc484e | Subsegment Sum Finder                | セグ木                 | UP         | 1159   |
+| abc484f | Make them monochrome                 | セグ木                 | UP         | 1280   |
 
 ## ARC
 
-| ID | 名前 | 種類 | ステータス | 難易度 | |---| ---| ---| ---| ---| | | arc044a
-| 素数判定 | 数学 | UP | 560 | | arc161b | Exactly Three Bits | 二分探索 | UP |
-563 |
+| ID      | 名前               | 種類     | ステータス | 難易度 |
+| ------- | ------------------ | -------- | ---------- | ------ |
+| arc044a | 素数判定           | 数学     | UP         | 560    |
+| arc161b | Exactly Three Bits | 二分探索 | UP         | 563    |
 
 ## AGC
 
@@ -366,12 +382,16 @@
 
 ## AWC
 
-| ID | 名前 | 種類 | ステータス | |---| ---| ---| ---| | | awc0178a
-| 円高と円安 | 実装 | UP | | awc0178b | 田舎町の駅 | 実装 | UP | | awc0178c
-| 荷物の回収 | 貪欲方 | UP | | awc0178d | 道路網の整備 | | | | awc0178e
-| 照明スイッチ | ビット演算・最短経路 | UP | | awc0179a | 売り主の値札 | 実装 |
-AC | | awc0179b | 焼き肉の順番 | 配列 | AC | | awc0179c
-| 学園祭の出店計画 | 実装 | AC |
+| ID       | 名前             | 種類                 | ステータス |
+| -------- | ---------------- | -------------------- | ---------- |
+| awc0178a | 円高と円安       | 実装                 | UP         |
+| awc0178b | 田舎町の駅       | 実装                 | UP         |
+| awc0178c | 荷物の回収       | 貪欲方               | UP         |
+| awc0178d | 道路網の整備     |                      |            |
+| awc0178e | 照明スイッチ     | ビット演算・最短経路 | UP         |
+| awc0179a | 売り主の値札     | 実装                 | AC         |
+| awc0179b | 焼き肉の順番     | 配列                 | AC         |
+| awc0179c | 学園祭の出店計画 | 実装                 | AC         |
 
 ## Educational DP Contest
 
@@ -387,5 +407,6 @@ AC | | awc0179b | 焼き肉の順番 | 配列 | AC | | awc0179c
 
 ## Others
 
-| ID | 名前 | 種類 | ステータス | 難易度 | |---| ---| ---| ---| ---| | |
-code_festival_2017_qualb_b | Problem Set | 連想配列 | UP | 568 |
+| ID                         | 名前        | 種類     | ステータス | 難易度 |
+| -------------------------- | ----------- | -------- | ---------- | ------ |
+| code_festival_2017_qualb_b | Problem Set | 連想配列 | UP         | 568    |

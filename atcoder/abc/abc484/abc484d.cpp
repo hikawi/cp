@@ -208,10 +208,15 @@ int main() {
   cout << setprecision(13);
   INT(n);
   VEC(ll, A, n);
+  vi C(n + 1);
 
-  vi seen(n + 1);
+  ll ans = 1;
   FOR(i, n) {
+    if (i && A[i] != A[i - 1])
+      ans += i - C[A[i]];
+    C[A[i]]++;
   }
+  cout << ans << el;
 
   return 0;
 }

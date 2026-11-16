@@ -2,3 +2,4 @@
 .cph-ng/
 a.out
 .clangd
+docs/_site

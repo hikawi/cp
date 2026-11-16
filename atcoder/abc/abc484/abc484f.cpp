@@ -203,10 +203,26 @@ template <class T, enable_if_t<is_same_v<T, i128>, int> = 0> constexpr i128 abs(
 constexpr i128 gcd(i128 a, i128 b) {while (b != 0) {i128 c = a % b;a = b, b = c;}return abs(a);}
 // clang-format on
 
-struct S {
-  ll v;
-  ll negone;
-};
+#include <atcoder/segtree>
+
+using namespace atcoder;
+ll inf = infty<ll>;
+
+ll op(ll a, ll b) {
+  if (a == inf || b == inf)
+    return inf;
+  if (a == -1)
+    return b;
+  if (b == -1)
+    return a;
+  if (a == b)
+    return a;
+  return inf;
+}
+
+ll e() {
+  return -1;
+}
 
 int main() {
   ios_base::sync_with_stdio(0);
@@ -214,6 +230,29 @@ int main() {
   cout << setprecision(13);
   INT(n);
   INT(q);
-  vc<S> A(n);
+  VEC(ll, A, n);
+  segtree<ll, op, e> T(A);
+
+  FOR(q) {
+    ll t;
+    cin >> t;
+    if (t == 1) {
+      ll p, x;
+      cin >> p >> x;
+      p--;
+      T.set(p, x);
+    } else {
+      ll l, r;
+      cin >> l >> r;
+      l--;
+      r--;
+      auto s = T.prod(l, r + 1);
+      if (s == inf)
+        No;
+      else
+        Yes;
+    }
+  }
+
   return 0;
 }

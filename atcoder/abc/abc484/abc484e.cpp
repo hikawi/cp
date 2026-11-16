@@ -1,7 +1,7 @@
 // Source: https://github.com/maspypy/library/blob/main/my_template.hpp
 // 主なきMaspyよ、夢の杖のもと、我の力になれ。
 // いづれにか、かのおのづからの小さき分のやうにならまほしかる。
-#include <atcoder/segtree>
+#include <atcoder/fenwicktree>
 #include <bits/stdc++.h>
 #include <cassert>
 
@@ -205,31 +205,48 @@ constexpr i128 gcd(i128 a, i128 b) {while (b != 0) {i128 c = a % b;a = b, b = c;
 
 using namespace atcoder;
 
-struct S {
-  ll val;
-  ll count;
-  ll sum;
+struct CC {
+  vi v;
+  void add(ll x) {
+    v.push_back(x);
+  }
+  void init() {
+    UNIQUE(v);
+  }
+  ll lb(ll x) {
+    return LB(v, x);
+  }
+  ll ub(ll x) {
+    return UB(v, x) - 1;
+  }
+  ll size() {
+    return len(v);
+  }
 };
-
-S op(S a, S b) {
-}
-
-S e() {
-  return {};
-}
-
-ll n, l, r;
 
 int main() {
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout << setprecision(13);
+  ll n, l, r;
   cin >> n >> l >> r;
   VEC(ll, A, n);
+  vi S = cumsum<ll>(A);
+  CC cc;
+  for (auto s : S)
+    cc.add(s), cc.add(s - l), cc.add(s - r);
+  cc.init();
 
-  ll i = 0, s = A[0], j = 1;
-  while (i < n) {
+  fenwick_tree<ll> T(cc.size());
+  ll ans = 0;
+  for (auto s : S) {
+    ll a = cc.lb(s - r);
+    ll b = cc.ub(s - l);
+    if (a <= b)
+      ans += T.sum(a, b + 1);
+    T.add(cc.ub(s), 1);
   }
+  cout << ans << el;
 
   return 0;
 }

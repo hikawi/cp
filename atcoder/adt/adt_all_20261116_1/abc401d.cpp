@@ -210,17 +210,53 @@ int main() {
   ll n, k;
   string s;
   cin >> n >> k >> s;
-  string ans(n, ' ');
+  string t = s;
 
+  ll m = 0;
   FOR(i, n) {
-    if (i && s[i] == '?' && s[i - 1] == 'o')
-      s[i] = '.';
-    if (i < n - 1 && s[i] == '?' && s[i + 1] == 'o')
-      s[i] = '.';
+    if (i && t[i] == '?' && t[i - 1] == 'o')
+      t[i] = '.';
+    if (i < n - 1 && t[i] == '?' && t[i + 1] == 'o')
+      t[i] = '.';
+    m += t[i] == 'o';
   }
 
-  vvc<ll> dp(n, vi(k + 1));
+  if (m == k) {
+    for (auto &c : t)
+      if (c == '?')
+        c = '.';
+    cout << t << el;
+    return 0;
+  }
 
-  cout << ans << el;
+  int i = 0, j = 0;
+  while (i < n) {
+    while (i < n && t[i] != '?')
+      i++;
+    j = i;
+    while (j < n && t[j] == '?')
+      j++;
+
+    ll c = j - i;
+    if (c % 2 == 0) {
+      m += c / 2;
+    } else {
+      m += (c + 1) / 2;
+      for (int k = i; k < j; k++)
+        if ((k - i) % 2 == 0)
+          t[k] = 'o';
+        else
+          t[k] = '.';
+    }
+
+    i = j;
+  }
+
+  if (m == k) {
+    cout << t << el;
+    return 0;
+  }
+
+  cout << s << el;
   return 0;
 }

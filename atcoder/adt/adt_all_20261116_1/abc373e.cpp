@@ -209,37 +209,26 @@ int main() {
   ll n, m, k;
   cin >> n >> m >> k;
   VEC(ll, A, n);
+  ll S = SUM<ll>(A), L = k - S;
 
-  ll left = k;
-  set<pi> S;
-  FOR(i, n) {
-    S.emplace(A[i], i + 1);
-    left -= A[i];
-  }
+  vi B = A;
+  sort(all(B));
 
-  FOR(i, n) {
-    S.erase({A[i], i + 1});
-
-    cout << A[i] << ": \n";
-
-    ll worstcase = A[i] + left;
-    if (distance(S.upper_bound({worstcase, infty<ll>}), S.end()) >= m) {
+  for (auto a : A) {
+    ll best = a + L;
+    if (n - UB(B, best) >= m) {
       cout << -1 << " ";
-    } else {
-      auto check = [&](ll add) {
-        ll dist = distance(S.upper_bound({A[i] + add, 0}), S.end());
-        cout << "bin search + " << add << " = " << dist << "\n";
-        return dist < m;
-      };
-      ll ans = binary_search(check, left, -1);
-      if (check(ans))
-        cout << ans << " ";
-      else
-        cout << -1 << " ";
+      continue;
     }
 
-    S.insert({A[i], i + 1});
+    auto check = [&](ll v) {
+      auto ub = n - UB(B, a + v);
+      return ub < m;
+    };
+    ll ans = binary_search(check, L, -1);
+    cout << ans << " ";
   }
+  cout << el;
 
   return 0;
 }

@@ -228,12 +228,18 @@ int main() {
   }
   VEC(ll, A, n);
 
+  for (auto &v : adj)
+    sort(all(v), [&](ll a, ll b) { return W[a] < W[b]; });
+
   ll ans = 0;
   while (!PQ.empty()) {
     auto [w, c] = POP(PQ);
+    ll tot = 0;
     for (auto n : adj[c]) {
-      if (W[n] < W[c])
+      if (tot + W[n] < W[c]) {
+        tot += W[n];
         A[n] += A[c];
+      }
     }
     ans += A[c];
     A[c] = 0;
