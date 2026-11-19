@@ -1,5 +1,8 @@
 .cph/
 .cph-ng/
-a.out
+.tc/
+.competitest.lua
+*.testcases
+*.out
 .clangd
 docs/_site

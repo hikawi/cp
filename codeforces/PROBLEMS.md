@@ -34,6 +34,10 @@
 | ID       | 名前                               | 種類         | ステータス | レート |
 | -------- | ---------------------------------- | ------------ | :--------: | :----: |
 | `932B`   | Recursive Queries                  | 1DDP・累積和 |     UP     |  1300  |
+| `1837A`  | Grasshopper on a Line              | 考察         |     UP     |  800   |
+| `1845A`  | Forbidden Integer                  | 考察         |     UP     |  800   |
+| `1853A`  | Desorting                          | 考察         |     UP     |  800   |
+| `1857A`  | Array Coloring                     | 考察         |     UP     |  800   |
 | `1858A`  | Buttons                            | 考察         |     UP     |  800   |
 | `1859A`  | United We Stand                    | 考察         |     UP     |  800   |
 | `1862B`  | Sequence Game                      | 実装         |     UP     |  800   |
@@ -50,6 +54,7 @@
 | `1901A`  | Line Trip                          | 考察         |     UP     |  800   |
 | `1903A`  | Halloumi Boxes                     | 考察         |     UP     |  800   |
 | `1913B`  | Swap and Delete                    | 貪欲法       |     UP     |  1000  |
+| `1973B`  | Cat, Fox and the Lonely Array      | 二分探索     |     UP     |  1300  |
 | `2280A`  | Are They the Same?                 | 考察         |     AC     |   -    |
 | `2280B`  | Secret String Patterns             | 考察         |     AC     |   -    |
 | `2280C`  | Reverse and Double                 | 考察         |            |   -    |

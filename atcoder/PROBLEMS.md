@@ -87,6 +87,7 @@
 | abc244b | Go Straight and Turn Right           | 実装                   | AC         | 30     |
 | abc244c | Yamanote Line Game                   | 実装                   | AC         | 165    |
 | abc248b | Slimes                               | 実装                   | AC         | 41     |
+| abc248c | Dice Sum                             | 2DDP                   | AC         | 787    |
 | abc249b | Perfect String                       | 連想配列               | AC         | 47     |
 | abc249c | Just K                               | ビット全探索           | UP         | 528    |
 | abc249d | Index Trio                           | 組み合わせ・数学       | UP         | 983    |
@@ -126,6 +127,7 @@
 | abc280b | Inverse Prefix Sum                   | 累積和                 | AC         | 22     |
 | abc280d | Factorial and Multiple               | 数学                   |            | 880    |
 | abc282a | Generalized ABC                      | 実装                   | AC         | 7      |
+| abc282b | Let's Get a Perfect Score            | 全探索                 | AC         | 72     |
 | abc282c | String Delimiter                     | 文字列                 | AC         | 104    |
 | abc283c | Cash Register                        | 貪欲法                 | AC         | 88     |
 | abc284b | Multi Test Cases                     | 実装                   | AC         | 14     |
@@ -146,6 +148,7 @@
 | abc297c | PC on the Table                      | 行列・実装             | AC         | 96     |
 | abc298c | Cards Query Problem                  | 連想配列               | AC         | 448    |
 | abc299c | Dango                                | 文字列                 | AC         | 191    |
+| abc300b | Same Map in the RPG World            | 全探索                 | AC         | 353    |
 | abc302a | Attack                               | 実装                   | AC         | 24     |
 | abc302b | Find snuke                           | 実装                   | AC         | 352    |
 | abc303a | Similar String                       | 実装                   | AC         | 22     |
@@ -198,6 +201,7 @@
 | abc347c | Ideal Holidays                       |                        |            | 926    |
 | abc347e | Set Add Query                        | 累積和                 | UP         | 1166   |
 | abc348c | Colorful Beans                       | 連想配列               | AC         | 156    |
+| abc349a | Zero Sum Game                        | 考察                   | AC         | 25     |
 | abc349d | Divide Interval                      | 貪欲法                 | AC         | 832    |
 | abc356c | Keys                                 | ビット全探索           | UP         | 568    |
 | abc358c | Popcorn                              | 全探索                 | AC         | 273    |
@@ -217,6 +221,7 @@
 | abc359b | Couples                              | 連想配列               | AC         | 27     |
 | abc370c | Word Ladder                          | 最短経路・文字列       | AC         | 228    |
 | abc372a | delete .                             | 実装                   | AC         | 12     |
+| abc372b | 3^A                                  | 貪欲法                 | AC         | 131    |
 | abc372c | Count ABC Again                      | 考察                   | UP         | 341    |
 | abc373b | 1D Keyboard                          | 実装                   | AC         | 54     |
 | abc373c | Max Ai+Bj                            | 実装                   | AC         | 75     |
@@ -237,6 +242,7 @@
 | abc388a | ?UPC                                 | 実装                   | AC         | 8      |
 | abc388c | Various Kagamimochi                  | 尺取り法・二分探索     | AC         | 211    |
 | abc388e | Simultaneous Kagamimochi             | 考察                   | UP         | 1068   |
+| abc389c | Snake Queue                          | データ構造             | AC         | 255    |
 | abc392a | Shuffled Equation                    | 実装                   | AC         | 11     |
 | abc392d | Doubles                              | 全探索                 | UP         | 579    |
 | abc393c | Make it Simple                       | グラフ                 | AC         | 188    |
@@ -254,10 +260,13 @@
 | abc405b | Not All                              | 実装                   | AC         | 50     |
 | abc405c | Sum of Product                       | 累積和                 | AC         | 102    |
 | abc406b | Product Calculator                   | 数学                   | UP         | 177    |
+| abc406c | ~                                    | 尺取り法               | UP         | 862    |
 | abc407a | Approximation                        | 実装                   | UP         | 587    |
 | abc408b | Compression                          | 実装                   | AC         | 35     |
+| abc409a | Conflict                             | 実装                   | AC         | 22     |
 | abc409b | Citation                             | 二分探索               | AC         | 126    |
 | abc410c | Rotatable Array                      | 実装・配列             | AC         | 230    |
+| abc410d | XOR Shortest Walk                    | グラフ                 | UP         | 1048   |
 | abc411a | Required Length                      | 実装                   | AC         | 11     |
 | abc411b | Distance Table                       | 累積和                 | AC         | 32     |
 | abc412b | Precondition                         | 文字列・実装           | AC         | 41     |
@@ -278,6 +287,7 @@
 | abc426f | Clearance                            | セグメント木           |            | 1776   |
 | abc430d | Neighbor Distance                    | 二分探索               | UP         | 982    |
 | abc431a | Robot Balance                        | 実装                   | AC         | 10     |
+| abc432b | Permute to Minimize                  | 全探索                 | AC         | 48     |
 | abc433a | Happy Birthday! 4                    | 実装                   | UP         | 43     |
 | abc433d | 138138                               | 考察                   | UP         | 43     |
 | abc434c | Flapping Takahashi                   | 考察                   | AC         | 374    |
