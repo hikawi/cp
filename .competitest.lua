@@ -1,4 +1,4 @@
-local root = vim.fn.expand("~/Desktop/projects/cp")
+local root = "."
 local atcoder = root .. "/atcoder"
 local cf = root .. "/codeforces"
 
@@ -135,10 +135,9 @@ return {
 	testcases_directory = ".tc",
 	testcases_use_single_file = true,
 	testcases_single_file_format = "$(FNOEXT).testcases",
-
 	compile_command = {
 		cpp = {
-			exec = "g++-16",
+			exec = "g++",
 			args = {
 				"-std=c++23",
 				"-I/usr/local/include",

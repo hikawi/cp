@@ -40,6 +40,17 @@
 | `1380A`  | Three Indices                      | 考察         |     UP     |  974   |
 | `1440B`  | Sum of Medians                     | 考察         |     UP     |  830   |
 | `1471A`  | Strange Partition                  | 考察         |     UP     |  951   |
+| `1475A`  | Odd Divisor                        | 考察         |     UP     |  901   |
+| `1537B`  | Bad Boy                            | 考察         |     UP     |  824   |
+| `1543A`  | Exciting Bets                      | 考察         |     UP     |  789   |
+| `1559A`  | Mocha and Math                     | 考察         |     UP     |  856   |
+| `1582B`  | Lutnik and Subsequences            | 考察         |     UP     |  838   |
+| `1593B`  | Make it Divisible by 25            | 考察         |     UP     |  901   |
+| `1606A`  | AB Balance                         | 貪欲法       |     UP     |  866   |
+| `1607B`  | Odd Grasshopper                    | 考察         |     UP     |  886   |
+| `1624B`  | Make AP                            | 考察         |     UP     |  834   |
+| `1665B`  | Array Cloning Technique            | 貪欲法       |     UP     |  899   |
+| `1666D`  | Deletive Editing                   | 貪欲法       |     UP     |  1127  |
 | `1761A`  | Two Permutations                   | 考察         |     UP     |  564   |
 | `1766A`  | Extremely Round                    | 考察         |     UP     |  411   |
 | `1777A`  | Everyone Likes Good Arrays!        | 考察         |     UP     |  240   |
