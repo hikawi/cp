@@ -1,7 +1,6 @@
 .cph/
 .cph-ng/
 .tc/
-.competitest.lua
 *.testcases
 *.out
 .clangd

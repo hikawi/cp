@@ -35,6 +35,11 @@
 | -------- | ---------------------------------- | ------------ | :--------: | :----: |
 | `932B`   | Recursive Queries                  | 1DDP・累積和 |     UP     |  1258  |
 | `1365B`  | Trouble Sort                       | 考察         |     UP     |  1177  |
+| `1373B`  | 01 Game                            | 考察         |     UP     |  759   |
+| `1374B`  | Multiply by 2, Divide by 6         | 考察         |     UP     |  799   |
+| `1380A`  | Three Indices                      | 考察         |     UP     |  974   |
+| `1440B`  | Sum of Medians                     | 考察         |     UP     |  830   |
+| `1471A`  | Strange Partition                  | 考察         |     UP     |  951   |
 | `1761A`  | Two Permutations                   | 考察         |     UP     |  564   |
 | `1766A`  | Extremely Round                    | 考察         |     UP     |  411   |
 | `1777A`  | Everyone Likes Good Arrays!        | 考察         |     UP     |  240   |
