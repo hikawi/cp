@@ -46,9 +46,12 @@
 | abc150c | Count Order                          | 全探索                 | UP         | 422    |
 | abc160d | Line++                               | 最短経路               | UP         | 879    |
 | abc171c | One Quadrillion and One Dalmatians   | 数学                   | UP         | 560    |
+| abc172d | Sum of Divisors                      | 実装                   | UP         | 963    |
 | abc180d | Takahashi Unevolved                  | 数学                   | UP         | 752    |
+| abc181e | Transformable Teacher                | 二分探索               | UP         | 1193   |
 | abc189c | Mandarin Orange                      | 全探索                 | UP         | 565    |
 | abc198c | Compass Walking                      | 数学                   | UP         | 413    |
+| abc198d | Send More Money                      | 全探索                 | UP         | 1224   |
 | abc212b | Weak Password                        | 実装                   | AC         | 64     |
 | abc213b | Booby Prize                          | 配列                   | UP         | 26     |
 | abc214a | Next Generation ABC                  | 実装                   | AC         | 4      |
@@ -313,6 +316,7 @@
 | abc444d | Many Repunit Sum                     | 配列・考察             | AC         | 574    |
 | abc445c | Sugoroku Destination                 | 1DDP                   | AC         | 404    |
 | abc447a | Seats 2                              | 実装                   | AC         | 15     |
+| abc447d | Take ABC 2                           | 考察                   | AC         | 430    |
 | abc447e | Divide Graph                         |                        |            | 955    |
 | abc448a | chmin                                | 実装                   | AC         | 13     |
 | abc448d | Integer-duplicated Path              | 深さ優先探索           | UP         | 638    |
@@ -392,11 +396,12 @@
 
 ## ARC
 
-| ID      | 名前               | 種類     | ステータス | 難易度 |
-| ------- | ------------------ | -------- | ---------- | ------ |
-| arc044a | 素数判定           | 数学     | UP         | 560    |
-| arc085a | HSI                | 考察     | UP         | 752    |
-| arc161b | Exactly Three Bits | 二分探索 | UP         | 563    |
+| ID      | 名前               | 種類           | ステータス | 難易度 |
+| ------- | ------------------ | -------------- | ---------- | ------ |
+| arc044a | 素数判定           | 数学           | UP         | 560    |
+| arc085a | HSI                | 考察           | UP         | 752    |
+| arc111b | Reversible Cards   | 二部マッチング | UP         | 1334   |
+| arc161b | Exactly Three Bits | 二分探索       | UP         | 563    |
 
 ## AGC
 
@@ -432,3 +437,4 @@
 | ID                         | 名前        | 種類     | ステータス | 難易度 |
 | -------------------------- | ----------- | -------- | ---------- | ------ |
 | code_festival_2017_qualb_b | Problem Set | 連想配列 | UP         | 568    |
+| diverta2019_b              | RGB Boxes   | 全探索   | UP         | 538    |
