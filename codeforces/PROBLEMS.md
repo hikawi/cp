@@ -51,6 +51,7 @@
 | `1624B`  | Make AP                            | 考察         |     UP     |  834   |
 | `1665B`  | Array Cloning Technique            | 貪欲法       |     UP     |  899   |
 | `1666D`  | Deletive Editing                   | 貪欲法       |     UP     |  1127  |
+| `1675B`  | Make It Increasing                 | 貪欲法       |     UP     |  867   |
 | `1761A`  | Two Permutations                   | 考察         |     UP     |  564   |
 | `1766A`  | Extremely Round                    | 考察         |     UP     |  411   |
 | `1777A`  | Everyone Likes Good Arrays!        | 考察         |     UP     |  240   |
