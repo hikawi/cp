@@ -202,13 +202,13 @@ template <class T, enable_if_t<is_same_v<T, i128>, int> = 0> constexpr i128 abs(
 constexpr i128 gcd(i128 a, i128 b) {while (b != 0) {i128 c = a % b;a = b, b = c;}return abs(a);}
 // clang-format on
 
-ll solve(vi &C, vi &V, ll m) {
+ll knapsack(deque<ll> &C, deque<ll> &V, ll m, ll j) {
   // dp[i][j] := from 1->i, what is the max value so far that sums to cost J
   ll n = len(C) - 1;
   vc<vi> dp(n + 1, vi(m + 1));
 
   FOR(i, 1, n + 1) {
-    ll c = C[i];
+    ll c = C[i] - j;
     FOR(j, 0, m + 1) {
       chmax(dp[i][j], dp[i - 1][j]); // no pick up
       // pick up this one which costs
@@ -228,25 +228,36 @@ int main() {
   cout << setprecision(13);
   ll n, m;
   cin >> n >> m;
-  vi C(n + 1), V(n + 1);
+  deque<pi> mono;
   FOR(i, n) {
-    cin >> C[i + 1] >> V[i + 1];
+    ll c, v;
+    cin >> c >> v;
+    mono.emplace_back(c, v);
   }
+  sort(all(mono));
 
+  deque<ll> C, V;
+  for (auto &[c, v] : mono) {
+    C.push_back(c);
+    V.push_back(v);
+  }
+  C.push_front(0);
+  V.push_front(0);
+
+  ll tot = 0;
   FOR(j, m + 1) {
-    vi CN(1), VN(1);
+    C.pop_front();
+    V.pop_front();
 
-    ll v = 0;
-    FOR(i, 1, n + 1) {
-      if (C[i] - j <= 0)
-        v += V[i];
-      else {
-        CN.push_back(C[i] - j);
-        VN.push_back(V[i]);
-      }
+    while (!C.empty() && C.front() <= j) {
+      tot += V.front();
+      C.pop_front();
+      V.pop_front();
     }
 
-    cout << v + solve(CN, VN, m) << el;
+    C.push_front(0);
+    V.push_front(0);
+    cout << tot + knapsack(C, V, m, j) << el;
   }
   return 0;
 }
