@@ -93,3 +93,4 @@
 | `2284A1` | 15K4JR3B (Easy Version)            | 考察         |     AC     |  264   |
 | `2284A2` | 15K4JR3B (Hard Version)            | 貪欲法       |     UP     |  799   |
 | `2284B`  | Introduction to the Niche Internet | 貪欲法       |            |  1016  |
+| `2288A`  | Youmu Konpaku and the Duel         | 実装         |     UP     |  631   |

@@ -108,7 +108,7 @@ return {
 
 	-- Set to true if you want to confirm/edit the generated path in the cmdline before saving
 	received_problems_prompt_path = true,
-	received_contests_prompt_directory = false,
+	received_contests_prompt_directory = true,
 	received_contests_prompt_extension = false,
 
 	-- `:CompetiTest receive problem`
