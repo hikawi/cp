@@ -393,6 +393,12 @@
 | abc484d | Move One Card Left                   | 考察                   | UP         | 938    |
 | abc484e | Subsegment Sum Finder                | セグ木                 | UP         | 1159   |
 | abc484f | Make them monochrome                 | セグ木                 | UP         | 1280   |
+| abc485a | Same Side                            | 実装                   | AC         | 24     |
+| abc485b | Faucets and Drains                   | 実装                   | AC         | 74     |
+| abc485c | Different Neighbor                   | データ構造             | AC         | 327    |
+| abc485d | ABC\|ABC\|ABC                        | 尺取り法               | AC         | 762    |
+| abc485e | Colorful Route                       | 幅優先探索             | UP         | 1240   |
+| abc485f | Big Bridge                           | 2DDP                   |            | 2004   |
 
 ## ARC
 
