@@ -17,6 +17,8 @@
 | 001 | Yokan Party                 | 二分探索 |     +      |  4⭐️   |
 | 002 | Encyclopedia of Parentheses | 構造     |     ++     |  2⭐️   |
 | 003 | Longest Circular Road       | 木構造   |     +      |  4⭐️   |
+| 004 | Cross Sum                   | 考察     |     ++     |  2⭐️   |
+| 005 | Restricted Digits           |          |            |  7⭐️   |
 
 - (何もない): まだ解けない
 - +: 解説によって解けた
