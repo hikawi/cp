@@ -213,25 +213,24 @@ int main() {
   set<ll> unseen;
   FOR(i, 1, w + 1) unseen.insert(i);
 
-  uset<ll> R1, R2, R3;
+  uset<ll> R1, R2;
 
   auto add = [&](ll w) {
-    R1.insert(w);
-    R2.erase(w);
-    R3.erase(w);
     unseen.erase(w);
+    for (auto a : R2)
+      unseen.erase(a + w);
     for (auto a : R1) {
       unseen.erase(a + w);
       R2.insert(a + w);
     }
+    R1.insert(w);
+    R2.erase(w);
   };
 
+  cerr << len(unseen) << el;
   while (!unseen.empty()) {
     ll nx = *unseen.begin();
     add(nx);
-    dbg(nx);
-    dbg(R1);
-    dbg(R2);
   }
 
   cout << len(R1) << el;
