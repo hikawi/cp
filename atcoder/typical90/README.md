@@ -12,13 +12,14 @@
 
 ## 問題表
 
-| ID  | 名前                        | 種類     | ステータス | 難易度 |
-| --- | --------------------------- | -------- | :--------: | :----: |
-| 001 | Yokan Party                 | 二分探索 |     +      |  4⭐️   |
-| 002 | Encyclopedia of Parentheses | 構造     |     ++     |  2⭐️   |
-| 003 | Longest Circular Road       | 木構造   |     +      |  4⭐️   |
-| 004 | Cross Sum                   | 考察     |     ++     |  2⭐️   |
-| 005 | Restricted Digits           |          |            |  7⭐️   |
+| ID  | 名前                        | 種類           | ステータス | 難易度 |
+| --- | --------------------------- | -------------- | :--------: | :----: |
+| 001 | Yokan Party                 | 二分探索       |     +      |  4⭐️   |
+| 002 | Encyclopedia of Parentheses | 構造           |     ++     |  2⭐️   |
+| 003 | Longest Circular Road       | 木構造         |     +      |  4⭐️   |
+| 004 | Cross Sum                   | 考察           |     ++     |  2⭐️   |
+| 005 | Restricted Digits           |                |            |  7⭐️   |
+| 006 | Smallest Subsequence        | 貪欲法・セグ木 |     +      |  5⭐️   |
 
 - (何もない): まだ解けない
 - +: 解説によって解けた
