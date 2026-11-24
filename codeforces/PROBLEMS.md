@@ -54,13 +54,19 @@
 | `1675B`  | Make It Increasing                 | 貪欲法       |     UP     |  867   |
 | `1679A`  | AvtoBus                            | 考察         |     UP     |  838   |
 | `1696B`  | NIT Destroys the Universe          | 考察         |     UP     |  806   |
+| `1704B`  | Luke is a Foodie                   | 貪欲法       |     UP     |  933   |
+| `1715B`  | Beautiful Array                    | 貪欲法・構造 |     UP     |  950   |
+| `1725B`  | Basketball Together                | 貪欲法       |     UP     |  1107  |
 | `1726A`  | Mainak and Array                   | 考察         |     UP     |  931   |
+| `1744C`  | Traffic Light                      | 二分探索     |     UP     |  965   |
 | `1761A`  | Two Permutations                   | 考察         |     UP     |  564   |
+| `1765M`  | Minimum LCM                        | 考察         |     UP     |  1186  |
 | `1766A`  | Extremely Round                    | 考察         |     UP     |  411   |
 | `1777A`  | Everyone Likes Good Arrays!        | 考察         |     UP     |  240   |
 | `1783A`  | Make it Beautiful                  | 実装         |     UP     |  553   |
 | `1789A`  | Serval and Mocha's Array           | 考察         |     UP     |  748   |
 | `1791C`  | Prepare and Append                 | 考察         |     UP     |  525   |
+| `1791D`  | Distinct Split                     | 累積和       |     UP     |  1028  |
 | `1794B`  | Not Dividing                       | 貪欲法       |     UP     |  825   |
 | `1805A`  | We Need the Zero                   | 考察         |     UP     |  595   |
 | `1807D`  | Odd Queries                        | 累積和       |     UP     |  865   |
@@ -69,21 +75,26 @@
 | `1828B`  | Permutation Swap                   | 考察         |     UP     |  836   |
 | `1829B`  | Blank Space                        | 実装         |     UP     |  262   |
 | `1831A`  | Twin Permutations                  | 考察         |     UP     |  467   |
+| `1831B`  | Array merging                      | 貪欲法       |     UP     |  949   |
 | `1834A`  | Unit Array                         | 考察         |     UP     |  440   |
 | `1837A`  | Grasshopper on a Line              | 考察         |     UP     |  376   |
 | `1837B`  | Comparison String                  | 構造         |     UP     |  791   |
+| `1840C`  | Ski Resort                         | 尺取り法     |     UP     |  931   |
 | `1845A`  | Forbidden Integer                  | 考察         |     UP     |  798   |
+| `1849B`  | Monsters                           | 考察         |     UP     |  969   |
 | `1850D`  | Balanced Round                     | 貪欲法       |     UP     |  780   |
 | `1853A`  | Desorting                          | 考察         |     UP     |  498   |
 | `1855B`  | Longest Divisors Interval          | 貪欲法       |     UP     |  886   |
 | `1857A`  | Array Coloring                     | 考察         |     UP     |  230   |
 | `1858A`  | Buttons                            | 考察         |     UP     |  342   |
 | `1859A`  | United We Stand                    | 考察         |     UP     |  483   |
+| `1859B`  | Olya and Game with Arrays          | 考察         |     UP     |  913   |
 | `1862B`  | Sequence Game                      | 実装         |     UP     |  634   |
 | `1866A`  | Ambitious Kid                      | 考察         |     UP     |  463   |
 | `1869A`  | Make It Zero                       | 考察         |     UP     |  749   |
 | `1873C`  | Target Practice                    | 実装         |     UP     |  625   |
 | `1875A`  | Jellyfish and Undertale            | 貪欲法       |     UP     |  757   |
+| `1876A`  | Helmets in Night Light             | 貪欲法       |     UP     |  963   |
 | `1877A`  | Goals of Victory                   | 考察         |     UP     |   57   |
 | `1878A`  | How Much Does Daytona Cost?        | 考察         |     UP     |  207   |
 | `1878C`  | Vasilije in Cacak                  | 考察         |     UP     |  849   |
@@ -93,7 +104,7 @@
 | `1890A`  | Doremy's Paint 3                   | 考察         |     UP     |  523   |
 | `1896A`  | Jagged Swaps                       | 貪欲法       |     UP     |  546   |
 | `1899A`  | Game with Integers                 | 考察         |     UP     |   68   |
-| `1900A`  | Cover in Water                     | 考察         |     UP     |  439A  |
+| `1900A`  | Cover in Water                     | 考察         |     UP     |  439   |
 | `1901A`  | Line Trip                          | 考察         |     UP     |  383   |
 | `1903A`  | Halloumi Boxes                     | 考察         |     UP     |  466   |
 | `1904A`  | Forked!                            | 実装         |     UP     |  887   |
