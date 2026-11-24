@@ -20,6 +20,8 @@
 | 004 | Cross Sum                   | 考察           |     ++     |  2⭐️   |
 | 005 | Restricted Digits           |                |            |  7⭐️   |
 | 006 | Smallest Subsequence        | 貪欲法・セグ木 |     +      |  5⭐️   |
+| 007 | CP Classes                  | 二分探索       |     +      |  3⭐️   |
+| 008 | AtCounter                   | 3DDP           |     +      |  3⭐️   |
 
 - (何もない): まだ解けない
 - +: 解説によって解けた
