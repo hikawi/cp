@@ -84,6 +84,7 @@
 | abc238b | Pizza                                | 実装                   | UP         | 183    |
 | abc239b | Integer Division                     | 実装                   | AC         | 57     |
 | abc239c | Knight Fork                          | 全探索・数学           | AC         | 198    |
+| abc240a | Edge Checker                         | 実装                   | AC         | 7      |
 | abc240d | Strange Balls                        | 実装                   | UP         | 570    |
 | abc241b | Pasta                                | 連想配列               | AC         | 42     |
 | abc241d | Sequence Query                       | 二分探索               | AC         | 1177   |
@@ -184,6 +185,7 @@
 | abc322c | Festival                             | 実装・配列             | AC         | 57     |
 | abc323a | Weak Beats                           | 実装                   | AC         | 15     |
 | abc323b | Round-Robin Tournament               | 実装                   | AC         | 75     |
+| abc323c | World Tour Finals                    | 貪欲法                 | AC         | 357    |
 | abc324d | Square Permutation                   | 全探索                 | UP         | 895    |
 | abc325a | Takahashi san                        | 実装                   | AC         | 8      |
 | abc325c | Sensors                              | 深さ優先探索           | AC         | 400    |
@@ -246,6 +248,7 @@
 | abc374b | Unvarnished Report                   | 実装                   | AC         | 28     |
 | abc375a | Seats                                | 実装                   | AC         | 20     |
 | abc376c | Prepare Another Box                  | 二分探索               | UP         | 366    |
+| abc376d | Cycle                                | 幅優先探索             | AC         | 743    |
 | abc378d | Count Simple Paths                   | 深さ優先探索・全探索   | UP         | 587    |
 | abc380a | 123233                               | 実装                   | AC         | 16     |
 | abc380b | Hurdle Parsing                       | 文字列                 | AC         | 27     |
@@ -306,6 +309,7 @@
 | abc426a | OS Versions                          | 実装                   | AC         | 18     |
 | abc426b | The Odd One Out                      | 実装                   | AC         | 25     |
 | abc426f | Clearance                            | セグメント木           |            | 1776   |
+| abc428b | Most Frequent Substrings             | 全探索                 | AC         | 118    |
 | abc430d | Neighbor Distance                    | 二分探索               | UP         | 982    |
 | abc431a | Robot Balance                        | 実装                   | AC         | 10     |
 | abc432b | Permute to Minimize                  | 全探索                 | AC         | 48     |
@@ -327,6 +331,7 @@
 | abc444d | Many Repunit Sum                     | 配列・考察             | AC         | 574    |
 | abc445c | Sugoroku Destination                 | 1DDP                   | AC         | 404    |
 | abc447a | Seats 2                              | 実装                   | AC         | 15     |
+| abc447c | Insert and Erase A                   | 考察                   | AC         | 326    |
 | abc447d | Take ABC 2                           | 考察                   | AC         | 430    |
 | abc447e | Divide Graph                         |                        |            | 955    |
 | abc448a | chmin                                | 実装                   | AC         | 13     |
