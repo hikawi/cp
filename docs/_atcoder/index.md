@@ -16,10 +16,13 @@ title: AtCoder
   </thead>
   <tbody>
     {% for item in items %}
-      {% assign parts = item.path | remove: ".md" | split: "/" %}
-      {% if parts.size >= 3 %}
-        {% assign contest = parts[1] %}
-        {% assign prob = parts[2] %}
+      {% assign filename = item.path | split: "/" | last | remove: ".md" %}
+      {% unless filename == "index" %}
+        {% assign len = filename | size %}
+        {% assign contest_len = len | minus: 1 %}
+        {% assign contest = filename | slice: 0, contest_len %}
+        {% assign prob = filename | slice: contest_len, 1 %}
+
         {% assign contest_low = contest | downcase %}
         {% assign prob_low = prob | downcase %}
         {% assign ac_url = "https://atcoder.jp/contests/" | append: contest_low | append: "/tasks/" | append: contest_low | append: "_" | append: prob_low %}
@@ -52,7 +55,7 @@ title: AtCoder
           <td>{{ item.techniques | join: ", " }}</td>
           <td><a href="{{ ac_url }}">AC ↗</a></td>
         </tr>
-      {% endif %}
+      {% endunless %}
     {% endfor %}
   </tbody>
 </table>

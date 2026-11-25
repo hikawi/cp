@@ -4,8 +4,8 @@ title: 競プロメモ
 
 # 自分用のメモ
 
-{% assign cf_count = site.codeforces | where_exp: "i", "i.name != 'index.md'" | size | minus: 1 %}
-{% assign ac_count = site.atcoder | where_exp: "i", "i.name != 'index.md'" | size | minus: 1 %}
+{% assign cf_count = site.codeforces | where_exp: "i", "i.name != 'index.md'" | size %}
+{% assign ac_count = site.atcoder | where_exp: "i", "i.name != 'index.md'" | size %}
 
 - **[Codeforces](./codeforces/)** ({{ cf_count }}問)
 - **[AtCoder](./atcoder/)** ({{ ac_count }}問)

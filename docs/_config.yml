@@ -6,10 +6,10 @@ baseurl: ""
 collections:
   codeforces:
     output: true
-    permalink: /codeforces/:path
+    permalink: /codeforces/:name
   atcoder:
     output: true
-    permalink: /atcoder/:path
+    permalink: /atcoder/:name
 kramdown:
   input: GFM
   syntax_highlighter: rouge
