@@ -34,6 +34,8 @@
 | ID       | 名前                               | 種類         | ステータス | レート |
 | -------- | ---------------------------------- | ------------ | :--------: | :----: |
 | `932B`   | Recursive Queries                  | 1DDP・累積和 |     UP     |  1258  |
+| `1000A`  | Codehorses T-shirts                | 考察         |     UP     |  1168  |
+| `1155C`  | Alarm Clocks Everywhere            | 考察         |     UP     |  1328  |
 | `1365B`  | Trouble Sort                       | 考察         |     UP     |  1177  |
 | `1373B`  | 01 Game                            | 考察         |     UP     |  759   |
 | `1374B`  | Multiply by 2, Divide by 6         | 考察         |     UP     |  799   |
@@ -41,18 +43,26 @@
 | `1440B`  | Sum of Medians                     | 考察         |     UP     |  830   |
 | `1471A`  | Strange Partition                  | 考察         |     UP     |  951   |
 | `1475A`  | Odd Divisor                        | 考察         |     UP     |  901   |
+| `1506C`  | Double-ended Strings               | 全探索       |     UP     |  991   |
 | `1537B`  | Bad Boy                            | 考察         |     UP     |  824   |
 | `1543A`  | Exciting Bets                      | 考察         |     UP     |  789   |
 | `1559A`  | Mocha and Math                     | 考察         |     UP     |  856   |
+| `1567B`  | MEXor Mixup                        | 考察         |     UP     |  959   |
 | `1582B`  | Lutnik and Subsequences            | 考察         |     UP     |  838   |
 | `1593B`  | Make it Divisible by 25            | 考察         |     UP     |  901   |
 | `1606A`  | AB Balance                         | 貪欲法       |     UP     |  866   |
 | `1607B`  | Odd Grasshopper                    | 考察         |     UP     |  886   |
+| `1614B`  | Divan and a New Project            | 貪欲法       |     UP     |  931   |
+| `1620B`  | Triangles on a Rectangle           | 考察         |     UP     |  878   |
 | `1624B`  | Make AP                            | 考察         |     UP     |  834   |
+| `1632B`  | Roof Construction                  | 考察         |     UP     |  1012  |
+| `1659A`  | Red Versus Blue                    | 構造         |     UP     |  979   |
 | `1665B`  | Array Cloning Technique            | 貪欲法       |     UP     |  899   |
 | `1666D`  | Deletive Editing                   | 貪欲法       |     UP     |  1127  |
 | `1675B`  | Make It Increasing                 | 貪欲法       |     UP     |  867   |
 | `1679A`  | AvtoBus                            | 考察         |     UP     |  838   |
+| `1690D`  | Black and White Stripe             | 尺取り法     |     UP     |  1011  |
+| `1691B`  | Shoe Shuffling                     | 貪欲法       |     UP     |  940   |
 | `1696B`  | NIT Destroys the Universe          | 考察         |     UP     |  806   |
 | `1704B`  | Luke is a Foodie                   | 貪欲法       |     UP     |  933   |
 | `1715B`  | Beautiful Array                    | 貪欲法・構造 |     UP     |  950   |
