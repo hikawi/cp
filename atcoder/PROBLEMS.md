@@ -178,6 +178,7 @@
 | abc314d | LOWER                                | オフライン処理         | UP         | 585    |
 | abc315a | tcdr                                 | 実装・文字列           | AC         | 12     |
 | abc317c | Remembering the Days                 | 深さ優先探索・全探索   | UP         | 604    |
+| abc318a | Full Moon                            | 実装                   | UP         | 14     |
 | abc318e | Sandwiches                           |                        |            | 1004   |
 | abc319c | False Hope                           | 全探索                 | UP         | 1111   |
 | abc321b | Cutoff                               | 配列                   | AC         | 220    |
@@ -224,6 +225,7 @@
 | abc358c | Popcorn                              | 全探索                 | AC         | 273    |
 | abc359a | Count Takahashi                      | 実装                   | AC         | 10     |
 | abc359b | Couples                              | 連想配列               | AC         | 27     |
+| abc359c | Tile Distance 2                      | 考察                   |            | 828    |
 | abc360a | A Healthy Breakfast                  | 実装                   | UP         | 19     |
 | abc360b | Vertical Reading                     | 実装・文字列           | AC         | 78     |
 | abc361b | Intersection of Cuboids              | 幾何学                 | AC         | 299    |
@@ -231,6 +233,7 @@
 | abc363a | Piling Up                            | 実装                   | AC         | 11     |
 | abc364b | Grid Walk                            | 実装                   | AC         | 79     |
 | abc365c | Transportation Expenses              | 二分探索               | UP         | 269    |
+| abc366a | Election 2                           | 実装                   | UP         | 20     |
 | abc366c | Balls and Bag Query                  | 連想配列               | UP         | 180    |
 | abc366d | Cuboid Sum Query                     | 累積和                 | UP         | 586    |
 | abc367a | Shout Everyday                       | 全探索                 | AC         | 43     |
@@ -270,6 +273,7 @@
 | abc393c | Make it Simple                       | グラフ                 | AC         | 188    |
 | abc394b | cat                                  | 実装                   | AC         | 30     |
 | abc394d | Colorful Bracket Sequence            | 連想配列               | UP         | 253    |
+| abc396d | Minimum XOR Path                     | 深さ優先探索           | AC         | 601    |
 | abc398a | Doors in the Center                  | 実装                   | AC         | 10     |
 | abc398c | Uniqueness                           | 連想配列               | AC         | 124    |
 | abc399a | Hamming Distance                     | 文字列                 | AC         | 9      |
@@ -304,6 +308,7 @@
 | abc423a | Scary Fee                            | 数学                   | AC         | 22     |
 | abc423c | Lock All Doors                       | 考察                   | UP         | 377    |
 | abc424a | Isosceles                            | 実装                   | AC         | 4      |
+| abc424b | Perfect                              | 実装                   | UP         | 31     |
 | abc425b | Find Permutation 2                   | 考察                   | AC         | 82     |
 | abc425d | Ulam-Warburton Automation            | 実装                   | UP         | 882    |
 | abc426a | OS Versions                          | 実装                   | AC         | 18     |
