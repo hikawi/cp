@@ -68,7 +68,9 @@
 | abc224a | Tires                                | 実装・文字列           | AC         | 6      |
 | abc225a | Distinct Strings                     | 全探索                 | AC         | 12     |
 | abc225c | Calendar Validator                   | 行列                   | AC         | 326    |
+| abc226a | Round decimals                       | 実装                   | AC         | 14     |
 | abc226e | Just one                             |                        |            | 1327   |
+| abc227a | Last Card                            | 実装                   | AC         | 21     |
 | abc228b | Takahashi's Secret                   | グラフ                 | AC         | 83     |
 | abc228d | Linear Probing                       | 二分探索               | UP         | 1035   |
 | abc230b | Triple Metre                         | 実装・文字列           | AC         | 37     |
@@ -132,6 +134,7 @@
 | abc277b | Playing Cards Validation             | 実装                   | AC         | 60     |
 | abc277d | Takahashi's Solitaire                | 尺取り法               | AC         | 873    |
 | abc278b | Misjudge the Time                    | 実装                   | AC         | 123    |
+| abc278d | All Assign Point Add                 | 考察                   | AC         | 559    |
 | abc279a | wwwvvvvvv                            | 実装                   | AC         | 7      |
 | abc280b | Inverse Prefix Sum                   | 累積和                 | AC         | 22     |
 | abc280d | Factorial and Multiple               | 数学                   |            | 880    |
@@ -187,6 +190,7 @@
 | abc323a | Weak Beats                           | 実装                   | AC         | 15     |
 | abc323b | Round-Robin Tournament               | 実装                   | AC         | 75     |
 | abc323c | World Tour Finals                    | 貪欲法                 | AC         | 357    |
+| abc324c | Error Correction                     | 実装                   | AC         | 637    |
 | abc324d | Square Permutation                   | 全探索                 | UP         | 895    |
 | abc325a | Takahashi san                        | 実装                   | AC         | 8      |
 | abc325c | Sensors                              | 深さ優先探索           | AC         | 400    |
@@ -207,10 +211,12 @@
 | abc334b | Christmas Trees                      | 数学                   | UP         | 479    |
 | abc336a | Long Loong                           | 実装                   | AC         | 6      |
 | abc336c | Even Digits                          | 数学                   | AC         | 343    |
+| abc337e | Bad Juice                            | 考察                   | UP         | 1155   |
 | abc339c | Perfect Bus                          | 考察                   | AC         | 174    |
 | abc340c | Divide and Divide                    | 1DDP                   | AC         | 528    |
 | abc341b | Foreign Exchange                     | 考察                   | AC         | 163    |
 | abc342a | Yay!                                 | 実装                   | AC         | 31     |
+| abc343f | Second Largest Query                 | セグ木                 | AC         | 1370   |
 | abc344b | Delimiter                            | 実装                   | AC         | 47     |
 | abc344d | String Bags                          | 2DDP                   | AC         | 854    |
 | abc345c | One Time Swap                        | 組み合わせ             | AC         | 469    |
@@ -232,6 +238,7 @@
 | abc361c | Make Them Narrow                     | 全探索                 | UP         | 342    |
 | abc363a | Piling Up                            | 実装                   | AC         | 11     |
 | abc364b | Grid Walk                            | 実装                   | AC         | 79     |
+| abc365b | Second Best                          | 実装                   | AC         | 22     |
 | abc365c | Transportation Expenses              | 二分探索               | UP         | 269    |
 | abc366a | Election 2                           | 実装                   | UP         | 20     |
 | abc366c | Balls and Bag Query                  | 連想配列               | UP         | 180    |
@@ -374,6 +381,7 @@
 | abc474c | Remove and Append                    | オフライン処理         | UP         | 243    |
 | abc475d | Alphametic Prime                     | 考察                   | UP         | 741    |
 | abc476a | Appender                             | 実装                   | AC         | 14     |
+| abc476b | Wild Card                            | 実装                   | AC         | 28     |
 | abc477a | Traffic Light                        | 実装                   | AC         | 17     |
 | abc477b | Standing Outliers                    | 全探索・配列           | AC         | 79     |
 | abc477c | Range Search Query                   | 文字列・累積和         | UP         | 456    |
