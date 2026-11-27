@@ -35,14 +35,23 @@
 | -------- | ---------------------------------- | ------------ | :--------: | :----: |
 | `932B`   | Recursive Queries                  | 1DDP・累積和 |     UP     |  1258  |
 | `1000A`  | Codehorses T-shirts                | 考察         |     UP     |  1168  |
+| `1155A`  | Reverse a Substring                | 考察         |     UP     |  990   |
 | `1155C`  | Alarm Clocks Everywhere            | 考察         |     UP     |  1328  |
+| `1312B`  | Bogosort                           | 考察         |     UP     |  1001  |
+| `1362A`  | Johnny and Ancient Computer        | 考察         |     UP     |  881   |
 | `1365B`  | Trouble Sort                       | 考察         |     UP     |  1177  |
 | `1373B`  | 01 Game                            | 考察         |     UP     |  759   |
 | `1374B`  | Multiply by 2, Divide by 6         | 考察         |     UP     |  799   |
+| `1374C`  | Move Brackets                      | 考察         |     UP     |  859   |
 | `1380A`  | Three Indices                      | 考察         |     UP     |  974   |
+| `1418A`  | Buying Torches                     | 考察         |     UP     |  1014  |
+| `1438B`  | Valerii Against Everyone           | 考察         |     UP     |  1074  |
 | `1440B`  | Sum of Medians                     | 考察         |     UP     |  830   |
+| `1447B`  | Numbers Box                        | 考察         |     UP     |  911   |
 | `1471A`  | Strange Partition                  | 考察         |     UP     |  951   |
+| `1474B`  | Different Divisors                 | 数学         |     UP     |  912   |
 | `1475A`  | Odd Divisor                        | 考察         |     UP     |  901   |
+| `1485A`  | Add and Divide                     | 考察         |     UP     |  1007  |
 | `1506C`  | Double-ended Strings               | 全探索       |     UP     |  991   |
 | `1537B`  | Bad Boy                            | 考察         |     UP     |  824   |
 | `1543A`  | Exciting Bets                      | 考察         |     UP     |  789   |
