@@ -428,6 +428,11 @@
 | abc485d | ABC\|ABC\|ABC                        | 尺取り法               | AC         | 762    |
 | abc485e | Colorful Route                       | 幅優先探索             | UP         | 1240   |
 | abc485f | Big Bridge                           | 2DDP                   |            | 2004   |
+| abc486a | Phonetic Alphabet                    | 実装                   | AC         |        |
+| abc486b | Player Substitution                  | 実装                   | AC         |        |
+| abc486c | Skip Lighting                        | 実装                   | AC         |        |
+| abc486d | Monsters                             | 2DDP                   | AC         |        |
+| abc486e | Increasing Walk                      | グラフDP               | UP         |        |
 
 ## ARC
 
