@@ -31,110 +31,117 @@
 
 ## Problem Set
 
-| ID       | 名前                               | 種類         | ステータス | レート |
-| -------- | ---------------------------------- | ------------ | :--------: | :----: |
-| `932B`   | Recursive Queries                  | 1DDP・累積和 |     UP     |  1258  |
-| `1000A`  | Codehorses T-shirts                | 考察         |     UP     |  1168  |
-| `1155A`  | Reverse a Substring                | 考察         |     UP     |  990   |
-| `1155C`  | Alarm Clocks Everywhere            | 考察         |     UP     |  1328  |
-| `1312B`  | Bogosort                           | 考察         |     UP     |  1001  |
-| `1362A`  | Johnny and Ancient Computer        | 考察         |     UP     |  881   |
-| `1365B`  | Trouble Sort                       | 考察         |     UP     |  1177  |
-| `1373B`  | 01 Game                            | 考察         |     UP     |  759   |
-| `1374B`  | Multiply by 2, Divide by 6         | 考察         |     UP     |  799   |
-| `1374C`  | Move Brackets                      | 考察         |     UP     |  859   |
-| `1380A`  | Three Indices                      | 考察         |     UP     |  974   |
-| `1418A`  | Buying Torches                     | 考察         |     UP     |  1014  |
-| `1438B`  | Valerii Against Everyone           | 考察         |     UP     |  1074  |
-| `1440B`  | Sum of Medians                     | 考察         |     UP     |  830   |
-| `1447B`  | Numbers Box                        | 考察         |     UP     |  911   |
-| `1471A`  | Strange Partition                  | 考察         |     UP     |  951   |
-| `1474B`  | Different Divisors                 | 数学         |     UP     |  912   |
-| `1475A`  | Odd Divisor                        | 考察         |     UP     |  901   |
-| `1485A`  | Add and Divide                     | 考察         |     UP     |  1007  |
-| `1506C`  | Double-ended Strings               | 全探索       |     UP     |  991   |
-| `1537B`  | Bad Boy                            | 考察         |     UP     |  824   |
-| `1543A`  | Exciting Bets                      | 考察         |     UP     |  789   |
-| `1559A`  | Mocha and Math                     | 考察         |     UP     |  856   |
-| `1567B`  | MEXor Mixup                        | 考察         |     UP     |  959   |
-| `1582B`  | Lutnik and Subsequences            | 考察         |     UP     |  838   |
-| `1593B`  | Make it Divisible by 25            | 考察         |     UP     |  901   |
-| `1606A`  | AB Balance                         | 貪欲法       |     UP     |  866   |
-| `1607B`  | Odd Grasshopper                    | 考察         |     UP     |  886   |
-| `1614B`  | Divan and a New Project            | 貪欲法       |     UP     |  931   |
-| `1620B`  | Triangles on a Rectangle           | 考察         |     UP     |  878   |
-| `1624B`  | Make AP                            | 考察         |     UP     |  834   |
-| `1632B`  | Roof Construction                  | 考察         |     UP     |  1012  |
-| `1659A`  | Red Versus Blue                    | 構造         |     UP     |  979   |
-| `1665B`  | Array Cloning Technique            | 貪欲法       |     UP     |  899   |
-| `1666D`  | Deletive Editing                   | 貪欲法       |     UP     |  1127  |
-| `1675B`  | Make It Increasing                 | 貪欲法       |     UP     |  867   |
-| `1679A`  | AvtoBus                            | 考察         |     UP     |  838   |
-| `1690D`  | Black and White Stripe             | 尺取り法     |     UP     |  1011  |
-| `1691B`  | Shoe Shuffling                     | 貪欲法       |     UP     |  940   |
-| `1696B`  | NIT Destroys the Universe          | 考察         |     UP     |  806   |
-| `1704B`  | Luke is a Foodie                   | 貪欲法       |     UP     |  933   |
-| `1715B`  | Beautiful Array                    | 貪欲法・構造 |     UP     |  950   |
-| `1725B`  | Basketball Together                | 貪欲法       |     UP     |  1107  |
-| `1726A`  | Mainak and Array                   | 考察         |     UP     |  931   |
-| `1744C`  | Traffic Light                      | 二分探索     |     UP     |  965   |
-| `1761A`  | Two Permutations                   | 考察         |     UP     |  564   |
-| `1765M`  | Minimum LCM                        | 考察         |     UP     |  1186  |
-| `1766A`  | Extremely Round                    | 考察         |     UP     |  411   |
-| `1777A`  | Everyone Likes Good Arrays!        | 考察         |     UP     |  240   |
-| `1783A`  | Make it Beautiful                  | 実装         |     UP     |  553   |
-| `1789A`  | Serval and Mocha's Array           | 考察         |     UP     |  748   |
-| `1791C`  | Prepare and Append                 | 考察         |     UP     |  525   |
-| `1791D`  | Distinct Split                     | 累積和       |     UP     |  1028  |
-| `1794B`  | Not Dividing                       | 貪欲法       |     UP     |  825   |
-| `1805A`  | We Need the Zero                   | 考察         |     UP     |  595   |
-| `1807D`  | Odd Queries                        | 累積和       |     UP     |  865   |
-| `1806A`  | Walking Master                     | 考察         |     UP     |  326   |
-| `1814A`  | Coins                              | 考察         |     UP     |  701   |
-| `1828B`  | Permutation Swap                   | 考察         |     UP     |  836   |
-| `1829B`  | Blank Space                        | 実装         |     UP     |  262   |
-| `1831A`  | Twin Permutations                  | 考察         |     UP     |  467   |
-| `1831B`  | Array merging                      | 貪欲法       |     UP     |  949   |
-| `1834A`  | Unit Array                         | 考察         |     UP     |  440   |
-| `1837A`  | Grasshopper on a Line              | 考察         |     UP     |  376   |
-| `1837B`  | Comparison String                  | 構造         |     UP     |  791   |
-| `1840C`  | Ski Resort                         | 尺取り法     |     UP     |  931   |
-| `1845A`  | Forbidden Integer                  | 考察         |     UP     |  798   |
-| `1849B`  | Monsters                           | 考察         |     UP     |  969   |
-| `1850D`  | Balanced Round                     | 貪欲法       |     UP     |  780   |
-| `1853A`  | Desorting                          | 考察         |     UP     |  498   |
-| `1855B`  | Longest Divisors Interval          | 貪欲法       |     UP     |  886   |
-| `1857A`  | Array Coloring                     | 考察         |     UP     |  230   |
-| `1858A`  | Buttons                            | 考察         |     UP     |  342   |
-| `1859A`  | United We Stand                    | 考察         |     UP     |  483   |
-| `1859B`  | Olya and Game with Arrays          | 考察         |     UP     |  913   |
-| `1862B`  | Sequence Game                      | 実装         |     UP     |  634   |
-| `1866A`  | Ambitious Kid                      | 考察         |     UP     |  463   |
-| `1869A`  | Make It Zero                       | 考察         |     UP     |  749   |
-| `1873C`  | Target Practice                    | 実装         |     UP     |  625   |
-| `1875A`  | Jellyfish and Undertale            | 貪欲法       |     UP     |  757   |
-| `1876A`  | Helmets in Night Light             | 貪欲法       |     UP     |  963   |
-| `1877A`  | Goals of Victory                   | 考察         |     UP     |   57   |
-| `1878A`  | How Much Does Daytona Cost?        | 考察         |     UP     |  207   |
-| `1878C`  | Vasilije in Cacak                  | 考察         |     UP     |  849   |
-| `1881A`  | Don't Try to Count                 | 実装         |     UP     |  697   |
-| `1883B`  | Chemistry                          | 考察         |     UP     |  769   |
-| `1883C`  | Raspberries                        | 考察         |     UP     |  895   |
-| `1890A`  | Doremy's Paint 3                   | 考察         |     UP     |  523   |
-| `1896A`  | Jagged Swaps                       | 貪欲法       |     UP     |  546   |
-| `1899A`  | Game with Integers                 | 考察         |     UP     |   68   |
-| `1900A`  | Cover in Water                     | 考察         |     UP     |  439   |
-| `1901A`  | Line Trip                          | 考察         |     UP     |  383   |
-| `1903A`  | Halloumi Boxes                     | 考察         |     UP     |  466   |
-| `1904A`  | Forked!                            | 実装         |     UP     |  887   |
-| `1913B`  | Swap and Delete                    | 貪欲法       |     UP     |  920   |
-| `1973B`  | Cat, Fox and the Lonely Array      | 二分探索     |     UP     |  1279  |
-| `2280A`  | Are They the Same?                 | 考察         |     AC     |  436   |
-| `2280B`  | Secret String Patterns             | 考察         |     AC     |  855   |
-| `2280C`  | Reverse and Double                 | 考察         |            |  1312  |
-| `2280D`  | Balanced Subsets                   |              |            |  1679  |
-| `2280E`  | Anti-Productive                    |              |     WA     |  1903  |
-| `2284A1` | 15K4JR3B (Easy Version)            | 考察         |     AC     |  264   |
-| `2284A2` | 15K4JR3B (Hard Version)            | 貪欲法       |     UP     |  799   |
-| `2284B`  | Introduction to the Niche Internet | 貪欲法       |            |  1016  |
-| `2288A`  | Youmu Konpaku and the Duel         | 実装         |     UP     |  631   |
+| ID       | 名前                               | 種類              | ステータス | レート |
+| -------- | ---------------------------------- | ----------------- | :--------: | :----: |
+| `932B`   | Recursive Queries                  | 1DDP・累積和      |     UP     |  1258  |
+| `1000A`  | Codehorses T-shirts                | 考察              |     UP     |  1168  |
+| `1155A`  | Reverse a Substring                | 考察              |     UP     |  990   |
+| `1155C`  | Alarm Clocks Everywhere            | 考察              |     UP     |  1328  |
+| `1312B`  | Bogosort                           | 考察              |     UP     |  1001  |
+| `1362A`  | Johnny and Ancient Computer        | 考察              |     UP     |  881   |
+| `1365B`  | Trouble Sort                       | 考察              |     UP     |  1177  |
+| `1373B`  | 01 Game                            | 考察              |     UP     |  759   |
+| `1374B`  | Multiply by 2, Divide by 6         | 考察              |     UP     |  799   |
+| `1374C`  | Move Brackets                      | 考察              |     UP     |  859   |
+| `1380A`  | Three Indices                      | 考察              |     UP     |  974   |
+| `1418A`  | Buying Torches                     | 考察              |     UP     |  1014  |
+| `1438B`  | Valerii Against Everyone           | 考察              |     UP     |  1074  |
+| `1440B`  | Sum of Medians                     | 考察              |     UP     |  830   |
+| `1447B`  | Numbers Box                        | 考察              |     UP     |  911   |
+| `1471A`  | Strange Partition                  | 考察              |     UP     |  951   |
+| `1474B`  | Different Divisors                 | 数学              |     UP     |  912   |
+| `1475A`  | Odd Divisor                        | 考察              |     UP     |  901   |
+| `1485A`  | Add and Divide                     | 考察              |     UP     |  1007  |
+| `1506C`  | Double-ended Strings               | 全探索            |     UP     |  991   |
+| `1511C`  | Yet Another Card Deck              | 考察              |     UP     |  1045  |
+| `1537B`  | Bad Boy                            | 考察              |     UP     |  824   |
+| `1543A`  | Exciting Bets                      | 考察              |     UP     |  789   |
+| `1559A`  | Mocha and Math                     | 考察              |     UP     |  856   |
+| `1567B`  | MEXor Mixup                        | 考察              |     UP     |  959   |
+| `1582B`  | Lutnik and Subsequences            | 考察              |     UP     |  838   |
+| `1593B`  | Make it Divisible by 25            | 考察              |     UP     |  901   |
+| `1606A`  | AB Balance                         | 貪欲法            |     UP     |  866   |
+| `1607B`  | Odd Grasshopper                    | 考察              |     UP     |  886   |
+| `1614B`  | Divan and a New Project            | 貪欲法            |     UP     |  931   |
+| `1620B`  | Triangles on a Rectangle           | 考察              |     UP     |  878   |
+| `1624B`  | Make AP                            | 考察              |     UP     |  834   |
+| `1632B`  | Roof Construction                  | 考察              |     UP     |  1012  |
+| `1659A`  | Red Versus Blue                    | 構造              |     UP     |  979   |
+| `1665B`  | Array Cloning Technique            | 貪欲法            |     UP     |  899   |
+| `1666D`  | Deletive Editing                   | 貪欲法            |     UP     |  1127  |
+| `1675B`  | Make It Increasing                 | 貪欲法            |     UP     |  867   |
+| `1679A`  | AvtoBus                            | 考察              |     UP     |  838   |
+| `1690D`  | Black and White Stripe             | 尺取り法          |     UP     |  1011  |
+| `1691B`  | Shoe Shuffling                     | 貪欲法            |     UP     |  940   |
+| `1696B`  | NIT Destroys the Universe          | 考察              |     UP     |  806   |
+| `1704B`  | Luke is a Foodie                   | 貪欲法            |     UP     |  933   |
+| `1715B`  | Beautiful Array                    | 貪欲法・構造      |     UP     |  950   |
+| `1725B`  | Basketball Together                | 貪欲法            |     UP     |  1107  |
+| `1726A`  | Mainak and Array                   | 考察              |     UP     |  931   |
+| `1744C`  | Traffic Light                      | 二分探索          |     UP     |  965   |
+| `1761A`  | Two Permutations                   | 考察              |     UP     |  564   |
+| `1765M`  | Minimum LCM                        | 考察              |     UP     |  1186  |
+| `1766A`  | Extremely Round                    | 考察              |     UP     |  411   |
+| `1777A`  | Everyone Likes Good Arrays!        | 考察              |     UP     |  240   |
+| `1783A`  | Make it Beautiful                  | 実装              |     UP     |  553   |
+| `1789A`  | Serval and Mocha's Array           | 考察              |     UP     |  748   |
+| `1791C`  | Prepare and Append                 | 考察              |     UP     |  525   |
+| `1791D`  | Distinct Split                     | 累積和            |     UP     |  1028  |
+| `1794B`  | Not Dividing                       | 貪欲法            |     UP     |  825   |
+| `1805A`  | We Need the Zero                   | 考察              |     UP     |  595   |
+| `1807D`  | Odd Queries                        | 累積和            |     UP     |  865   |
+| `1806A`  | Walking Master                     | 考察              |     UP     |  326   |
+| `1814A`  | Coins                              | 考察              |     UP     |  701   |
+| `1828B`  | Permutation Swap                   | 考察              |     UP     |  836   |
+| `1829B`  | Blank Space                        | 実装              |     UP     |  262   |
+| `1831A`  | Twin Permutations                  | 考察              |     UP     |  467   |
+| `1831B`  | Array merging                      | 貪欲法            |     UP     |  949   |
+| `1834A`  | Unit Array                         | 考察              |     UP     |  440   |
+| `1837A`  | Grasshopper on a Line              | 考察              |     UP     |  376   |
+| `1837B`  | Comparison String                  | 構造              |     UP     |  791   |
+| `1840C`  | Ski Resort                         | 尺取り法          |     UP     |  931   |
+| `1845A`  | Forbidden Integer                  | 考察              |     UP     |  798   |
+| `1849B`  | Monsters                           | 考察              |     UP     |  969   |
+| `1850D`  | Balanced Round                     | 貪欲法            |     UP     |  780   |
+| `1853A`  | Desorting                          | 考察              |     UP     |  498   |
+| `1855B`  | Longest Divisors Interval          | 貪欲法            |     UP     |  886   |
+| `1857A`  | Array Coloring                     | 考察              |     UP     |  230   |
+| `1858A`  | Buttons                            | 考察              |     UP     |  342   |
+| `1859A`  | United We Stand                    | 考察              |     UP     |  483   |
+| `1859B`  | Olya and Game with Arrays          | 考察              |     UP     |  913   |
+| `1862B`  | Sequence Game                      | 実装              |     UP     |  634   |
+| `1866A`  | Ambitious Kid                      | 考察              |     UP     |  463   |
+| `1869A`  | Make It Zero                       | 考察              |     UP     |  749   |
+| `1873C`  | Target Practice                    | 実装              |     UP     |  625   |
+| `1875A`  | Jellyfish and Undertale            | 貪欲法            |     UP     |  757   |
+| `1876A`  | Helmets in Night Light             | 貪欲法            |     UP     |  963   |
+| `1877A`  | Goals of Victory                   | 考察              |     UP     |   57   |
+| `1878A`  | How Much Does Daytona Cost?        | 考察              |     UP     |  207   |
+| `1878C`  | Vasilije in Cacak                  | 考察              |     UP     |  849   |
+| `1881A`  | Don't Try to Count                 | 実装              |     UP     |  697   |
+| `1883B`  | Chemistry                          | 考察              |     UP     |  769   |
+| `1883C`  | Raspberries                        | 考察              |     UP     |  895   |
+| `1890A`  | Doremy's Paint 3                   | 考察              |     UP     |  523   |
+| `1896A`  | Jagged Swaps                       | 貪欲法            |     UP     |  546   |
+| `1899A`  | Game with Integers                 | 考察              |     UP     |   68   |
+| `1900A`  | Cover in Water                     | 考察              |     UP     |  439   |
+| `1901A`  | Line Trip                          | 考察              |     UP     |  383   |
+| `1903A`  | Halloumi Boxes                     | 考察              |     UP     |  466   |
+| `1904A`  | Forked!                            | 実装              |     UP     |  887   |
+| `1913B`  | Swap and Delete                    | 貪欲法            |     UP     |  920   |
+| `1973B`  | Cat, Fox and the Lonely Array      | 二分探索          |     UP     |  1279  |
+| `2280A`  | Are They the Same?                 | 考察              |     AC     |  436   |
+| `2280B`  | Secret String Patterns             | 考察              |     AC     |  855   |
+| `2280C`  | Reverse and Double                 | 考察              |            |  1312  |
+| `2280D`  | Balanced Subsets                   |                   |            |  1679  |
+| `2280E`  | Anti-Productive                    |                   |     WA     |  1903  |
+| `2284A1` | 15K4JR3B (Easy Version)            | 考察              |     AC     |  264   |
+| `2284A2` | 15K4JR3B (Hard Version)            | 貪欲法            |     UP     |  799   |
+| `2284B`  | Introduction to the Niche Internet | 貪欲法            |            |  1016  |
+| `2288A`  | Youmu Konpaku and the Duel         | 実装              |     UP     |  631   |
+| `2292A`  | Picnic for Two                     | 実装              |     AC     |  257   |
+| `2292B`  | Grapefruit Juice                   | 貪欲法            |     AC     |  561   |
+| `2292C`  | Finding Shapes in the Clouds       | 考察              |     AC     |  923   |
+| `2292D`  | Unexpected Precipitation           | 2DDP              |     UP     |  1246  |
+| `2292E`  | Blush                              |                   |            |  1665  |
+| `2292F`  | Pink-Black                         | グラフ・UnionFind |     UP     |  2015  |

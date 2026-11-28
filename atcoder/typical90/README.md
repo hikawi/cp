@@ -28,6 +28,9 @@
 | 012 | Red Painting                    | UnionFind      |     AC     |  4⭐️   |
 | 013 | Passing                         | 最短経路       |     AC     |  5⭐️   |
 | 014 | We Used to Sing a Song Together | 考察           |     AC     |  3⭐️   |
+| 015 | Don't be too close              |                |            |  6⭐️   |
+| 016 | Minimum Coins                   | 全探索         |     AC     |  3⭐️   |
+| 017 | Crossing Segments               | グラフ・セグ木 |     AC     |  7⭐️   |
 
 - `NS`(あるいは何もない): まだ解けない
 - `UP`: 解説によって解けた
